@@ -3,10 +3,6 @@
     var $btn = $('.request-audit-btn');
     var validForm = false;
     var classPathToDetach = null;
-    var emailData = {
-      email: 'audits@openzeppelin.com',
-      subject: 'Security Audit',
-    };
 
     var mapRef = {
       project_name: 'Project Name',
@@ -86,7 +82,6 @@
           ')';
         var inputs = $(inputClass);
         var res = serialize(inputs);
-        emailData.body = res.body;
         // To be valid all required must be completed
         validForm = res.mapArr.filter((i) => i.value === '' && i.required);
         if (validForm.length === 0) {
@@ -179,8 +174,12 @@
 
       // Submiting the form
       $('.sr-form').on('submit', function(e) {
-        $('.modal-sr .modal-sr__sub-container').remove();
-        showSuccess();
+        e.preventDefault();
+        var $form = $(this);
+        $.post($form.attr("action"), $form.serialize()).then(function() {
+          $('.modal-sr .modal-sr__sub-container').remove();
+          showSuccess();
+        });
       });
     }
 
