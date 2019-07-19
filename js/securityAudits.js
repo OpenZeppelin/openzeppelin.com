@@ -77,18 +77,6 @@
       };
     };
 
-    function setMailTo() {
-      var jhref =
-        'mailto:' +
-        emailData.email +
-        '?subject=' +
-        emailData.subject +
-        '&body=' +
-        encodeURIComponent(emailData.body);
-
-      location.href = jhref;
-    }
-
     function checkValues() {
       if (classPathToDetach) {
         var $submitBtn = $('.sr-form').find('.btn[type="submit"]');
@@ -191,8 +179,6 @@
 
       // Submiting the form
       $('.sr-form').on('submit', function(e) {
-        e.preventDefault();
-        setMailTo();
         $('.modal-sr .modal-sr__sub-container').remove();
         showSuccess();
       });
