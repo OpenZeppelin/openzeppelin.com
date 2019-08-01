@@ -1,7 +1,6 @@
 <style type="text/css">
-
   .team-box {
-		padding-top: 20px;
+    padding-top: 20px;
     height: 255px;
     width: 19%;
     min-width: 150px;
@@ -11,14 +10,14 @@
   }
 
   .team-img {
-		margin-bottom: 2.5rem;
+    margin-bottom: 2.5rem;
     border-radius: 6rem;
     background-color: grey;
     height: 120px;
     width: 120px;
     margin: auto;
     margin-bottom: 1.5rem;
-    box-shadow: -2px 4px 10px 0 #f5f5f5, 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    box-shadow: -2px 4px 10px 0 #f5f5f5, 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
   }
 
   .team-box p {
@@ -32,9 +31,12 @@
     line-height: 1.31;
     text-align: center;
     color: #4a4a4a;
-		font-family: 'silka';
-		margin-bottom: 5px;
-		max-width: 100px;
+    font-family: 'silka';
+    max-width: 100px;
+  }
+
+  .team-box p.title .last-name {
+    white-space: nowrap;
   }
 
   .team-box p.small {
@@ -46,24 +48,28 @@
     color: #4a4a4a;
   }
 
-	.team-container {
-		margin: 20px -10px 60px;
-	}
-
-	@media (min-width: 370px) {
-		.team-container {
-			margin: 20px -20px 40px;
-		}
+  .team-box p.job-title {
+    margin-bottom: 5px;
   }
 
-	@media (min-width: 900px) {
-		.team-container {
-			margin: 20px -20px 40px;
-		}
+  .team-container {
+    margin: 20px -10px 60px;
+  }
 
-		.team-box p.title {
-			max-width: 200px;
-  	}
+  @media (min-width: 370px) {
+    .team-container {
+      margin: 20px -20px 40px;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .team-container {
+      margin: 20px -20px 40px;
+    }
+
+    .team-box p.title {
+      max-width: 200px;
+    }
   }
 
   @media (max-width: 900px) {
@@ -72,9 +78,19 @@
       width: 32%;
       min-width: 100px;
     }
+
     .team-img {
       height: 80px !important;
       width: 80px !important;
+      margin-bottom: 0.5rem;
+    }
+
+    .team-box p.title {
+      margin-bottom: 5px;
+    }
+
+    .team-box p.job-title {
+      display: none;
     }
   }
 </style>
@@ -83,214 +99,217 @@
   <div class="team-container">
     <div class="team-box">
       <img src="../images/team/demi.png" class="circle responsive-img team-img">
-      <p class="title">Demian<span class="hide-on-small-only"> Brener</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Demian<span class="hide-on-small-only last-name"> Brener</span></p>
+      <p class="small job-title">CEO</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/demibrener" target="_blank"><img src="../images/ic_github_grey.svg"></a>
         <a href="https://twitter.com/demibrener" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/fran.png" class="circle responsive-img team-img">
-      <p class="title">Francisco<span class="hide-on-small-only"> Giordano</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Francisco<span class="hide-on-small-only last-name"> Giordano</span></p>
+      <p class="small job-title">Core dev</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/frangio" target="_blank"><img src="../images/ic_github_grey.svg"></a>
         <a href="https://twitter.com/frangio_" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/albert.png" class="circle responsive-img team-img">
-      <p class="title">Albert<span class="hide-on-small-only"> Gozzi</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Albert<span class="hide-on-small-only last-name"> Gozzi</span></p>
+      <p class="small job-title">COO</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/albertogozzi" target="_blank"><img src="../images/ic_github_grey.svg"></a>
         <a href="https://twitter.com/albertgozzi" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/palla.png" class="circle responsive-img team-img">
-      <p class="title">Santiago<span class="hide-on-small-only"> Palladino</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Santiago<span class="hide-on-small-only last-name"> Palladino</span></p>
+      <p class="small job-title">Core dev</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/spalladino" target="_blank"><img src="../images/ic_github_grey.svg"></a>
         <a href="https://twitter.com/smpalladino" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/marto.png" class="circle responsive-img team-img">
-      <p class="title">Martin<span class="hide-on-small-only"> Triay</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Martin<span class="hide-on-small-only last-name"> Triay</span></p>
+      <p class="small job-title">Communications</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/martriay" target="_blank"><img src="../images/ic_github_grey.svg"></a>
         <a href="https://twitter.com/martriay" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/marta.png" class="circle responsive-img team-img">
-      <p class="title">Martin<span class="hide-on-small-only"> Tellechea</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Martin<span class="hide-on-small-only last-name"> Tellechea</span></p>
+      <p class="small job-title">Biz dev</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/martintel" target="_blank"><img src="../images/ic_github_grey.svg"></a>
         <a href="https://twitter.com/martint" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/alejo.png" class="circle responsive-img team-img">
-      <p class="title">Alejo<span class="hide-on-small-only"> Salles</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Alejo<span class="hide-on-small-only last-name"> Salles</span></p>
+      <p class="small job-title">Core dev</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/fiiiu" target="_blank"><img src="../images/ic_github_grey.svg"></a>
         <a href="https://twitter.com/fiiiu_" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/leo.png" class="circle responsive-img team-img">
-      <p class="title">Leonardo<span class="hide-on-small-only"> Arias</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Leonardo<span class="hide-on-small-only last-name"> Arias</span></p>
+      <p class="small job-title">Core dev</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/elopio" target="_blank"><img src="../images/ic_github_grey.svg"></a>
         <a href="https://twitter.com/yoelopio" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/nico.png" class="circle responsive-img team-img">
-      <p class="title">Nicolas<span class="hide-on-small-only"> Venturo</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Nicolas<span class="hide-on-small-only last-name"> Venturo</span></p>
+      <p class="small job-title">Core dev</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/nventuro" target="_blank"><img src="../images/ic_github_grey.svg"></a>
         <a href="https://twitter.com/mrnventuro" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/orne.png" class="circle responsive-img team-img">
-      <p class="title">Ornella<span class="hide-on-small-only"> Cordoba</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Ornella<span class="hide-on-small-only last-name"> Cordoba</span></p>
+      <p class="small job-title">Communications</p>
+      <p class="small hide-on-small-only">
         <a href="https://twitter.com/ornellacordoba" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/agos.png" class="circle responsive-img team-img">
-      <p class="title">Agostina<span class="hide-on-small-only"> Blanco</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Agostina<span class="hide-on-small-only last-name"> Blanco</span></p>
+      <p class="small job-title">Design</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/blancoagostina" target="_blank"><img src="../images/ic_github_grey.svg"></a>
         <a href="https://twitter.com/blancoagostina" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/jota.png" class="circle responsive-img team-img">
-      <p class="title">Juan Bautista<span class="hide-on-small-only"> Carpanelli</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Juan Bautista<span class="hide-on-small-only last-name"> Carpanelli</span></p>
+      <p class="small job-title">Core dev</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/jcarpanelli" target="_blank"><img src="../images/ic_github_grey.svg"></a>
         <a href="https://twitter.com/holajotola" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/sofi.png" class="circle responsive-img team-img">
-      <p class="title">Sofia<span class="hide-on-small-only"> Vissani</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Sofia<span class="hide-on-small-only last-name"> Vissani</span></p>
+      <p class="small job-title">Finance</p>
+      <p class="small hide-on-small-only">
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/tincho.png" class="circle responsive-img team-img">
-      <p class="title">Martin<span class="hide-on-small-only"> Abbatemarco</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Martin<span class="hide-on-small-only last-name"> Abbatemarco</span></p>
+      <p class="small job-title">Core dev</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/tinchoabbate" target="_blank"><img src="../images/ic_github_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/caro.png" class="circle responsive-img team-img">
-      <p class="title">Carolina<span class="hide-on-small-only"> Jacob</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Carolina<span class="hide-on-small-only last-name"> Jacob</span></p>
+      <p class="small job-title">HR</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/carojacob" target="_blank"><img src="../images/ic_github_grey.svg"></a>
         <a href="https://twitter.com/carolinajacob1" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/juan.png" class="circle responsive-img team-img">
-      <p class="title">John<span class="hide-on-small-only"> Neufeld</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">John<span class="hide-on-small-only last-name"> Neufeld</span></p>
+      <p class="small job-title">Legal</p>
+      <p class="small hide-on-small-only">
         <a href="https://twitter.com/johndneufeld" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/dennison.png" class="circle responsive-img team-img">
-      <p class="title">Dennison<span class="hide-on-small-only"> Bertram</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Dennison<span class="hide-on-small-only last-name"> Bertram</span></p>
+      <p class="small job-title">Development Advocate</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/crazyrabbitLTC" target="_blank"><img src="../images/ic_github_grey.svg"></a>
         <a href="https://twitter.com/DennisonBertram" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/ramon.png" class="circle responsive-img team-img">
-      <p class="title">Ramon<span class="hide-on-small-only"> Recuero</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Ramon<span class="hide-on-small-only last-name"> Recuero</span></p>
+      <p class="small job-title">Product</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/rrecuero" target="_blank"><img src="../images/ic_github_grey.svg"></a>
         <a href="https://twitter.com/ramonrecuero" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/igor.png" class="circle responsive-img team-img">
-      <p class="title">Igor<span class="hide-on-small-only"> Yalovoy</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Igor<span class="hide-on-small-only last-name"> Yalovoy</span></p>
+      <p class="small job-title">Core dev</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/ylv-io" target="_blank"><img src="../images/ic_github_grey.svg"></a>
         <a href="https://twitter.com/ylv_io" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/rick.png" class="circle responsive-img team-img">
-      <p class="title">Rick<span class="hide-on-small-only"> Chen</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Rick<span class="hide-on-small-only last-name"> Chen</span></p>
+      <p class="small job-title">Core dev</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/fasteater" target="_blank"><img src="../images/ic_github_grey.svg"></a>
         <a href="https://twitter.com/rickchenn" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/bachi.png" class="circle responsive-img team-img">
-      <p class="title">Andres<span class="hide-on-small-only"> Bachfischer</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Andres<span class="hide-on-small-only last-name"> Bachfischer</span></p>
+      <p class="small job-title">Core dev</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/andresbach" target="_blank"><img src="../images/ic_github_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/nikesh.png" class="circle responsive-img team-img">
-      <p class="title">Nikesh<span class="hide-on-small-only"> Nazareth</span></p>
-
-      <p class="small hide-on-small-only" >
+      <p class="title">Nikesh<span class="hide-on-small-only last-name"> Nazareth</span></p>
+      <p class="small job-title">Core dev</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/nikeshnazareth" target="_blank"><img src="../images/ic_github_grey.svg"></a>
         <a href="https://twitter.com/exceed_silence" target="_blank"><img src="../images/ic_twitter_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/austin.png" class="circle responsive-img team-img">
-      <p class="title">Austin<span class="hide-on-small-only"> Williams</span></p>
-      <p class="small hide-on-small-only" >
+      <p class="title">Austin<span class="hide-on-small-only last-name"> Williams</span></p>
+      <p class="small job-title">Core dev</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/Austin-Williams" target="_blank"><img src="../images/ic_github_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/nacho.png" class="circle responsive-img team-img">
-      <p class="title">Ignacio<span class="hide-on-small-only"> Bonilla</span></p>
-      <p class="small hide-on-small-only" >
+      <p class="title">Ignacio<span class="hide-on-small-only last-name"> Bonilla</span></p>
+      <p class="small job-title">Core dev</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/nachobonilla" target="_blank"><img src="../images/ic_github_grey.svg"></a>
       </p>
     </div>
     <div class="team-box">
       <img src="../images/team/eric.png" class="circle responsive-img team-img">
-      <p class="title">Eric<span class="hide-on-small-only"> Decourcy</span></p>
-      <p class="small hide-on-small-only" >
+      <p class="title">Eric<span class="hide-on-small-only last-name"> Decourcy</span></p>
+      <p class="small job-title">Core dev</p>
+      <p class="small hide-on-small-only">
         <a href="https://github.com/ericDeCourcy" target="_blank"><img src="../images/ic_github_grey.svg"></a>
       </p>
     </div>
