@@ -4,3 +4,5 @@ _site
 .sass-cache
 *.swo
 *.swp
+
+\.jekyll-metadata
