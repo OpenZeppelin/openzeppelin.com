@@ -1208,9 +1208,22 @@ html {
 	max-width: 500px;
 }
 
+.page-product .p-logo.contracts-logo {
+	margin-right: 1rem;
+}
+
 .page-product .p-logo#sdk-logo > img {
 	margin-left: -31px;
+	position: relative;
+	bottom: 4px;
 }
+
+.page-product .p-logo#starter-logo > img {
+	margin-right: 1rem;
+	position: relative;
+	bottom: 3px;
+}
+
 .page-product .c-hero .description {
 	max-width: 770px;
 }
