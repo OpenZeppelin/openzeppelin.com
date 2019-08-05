@@ -8,10 +8,11 @@ layout: default
 		text-align: center;
 		position: relative;
 		height: auto;
+		min-height: 290px;
 	}
 
-	.page-landing .l-hero {
-		min-height: 290px;
+	.page-landing .l-hero .container {
+		height: calc(60vh - 70px);
 	}
 
 	.page-landing .l-hero .section__bg-landing {
@@ -195,6 +196,10 @@ layout: default
 	}
 
 	@media (min-width: 980px) {
+		.page-landing .hero .heading {
+			font-size: 3rem;
+		}
+
 		.l-cta .building-grid .row {
 			flex-direction: row;
 		}
@@ -261,15 +266,12 @@ layout: default
 
 		.page-landing .l-hero {
 			overflow: hidden;
-			height: 350px;
 			min-height: 350px;
-			max-height: 500px;
 		}
 
 		.page-landing .hero .heading {
 			font-size: 2.25em;
 		}
-
 
 		.page-landing .hero .description {
 			margin: 0 auto;
@@ -277,58 +279,60 @@ layout: default
 			font-size: 1.1em;
 		}
 
-		@media (min-width: 1440px) {
-			height: 500px;
+		.page-landing .hero .section__bg--left {
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			background-repeat: no-repeat;
+			left: 0;
+			top: 0;
+			background-size: contain;
+			width: 50%;
+			background-position: top left;
 		}
 
-		#background path {
-			animation: pulse 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite;
+		.page-landing .hero .section__bg--right {
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			background-repeat: no-repeat;
+			right: 0;
+			top: 0;
+			background-size: contain;
+			width: 50%;
+			background-position: top right;
+		}
+	}
 
-			transform-origin: 50% 50%;
-			transform-box: fill-box;
+	@media (max-height: 600px) {
+		.page-landing .l-hero .container {
+			height: calc(100vh - 70px);
+		}
+	}
+
+	#background path {
+		animation: pulse 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite;
+
+		transform-origin: 50% 50%;
+		transform-box: fill-box;
+	}
+
+	@keyframes pulse {
+
+		/* Rotating it along with the scale makes it a little bit more fancy */
+		0%,
+		100% {
+			transform: scale(0) rotate(33deg);
 		}
 
-		@keyframes pulse {
-
-			/* Rotating it along with the scale makes it a little bit more fancy */
-			0%,
-			100% {
-				transform: scale(0) rotate(33deg);
-			}
-
-			35%,
-			65% {
-				transform: scale(1) rotate(0deg);
-			}
+		35%,
+		65% {
+			transform: scale(1) rotate(0deg);
 		}
 	}
 
 	.page-landing .hero {
 		background-color: #F8F8FA;
-	}
-
-	.page-landing .hero .section__bg--left {
-		position: absolute;
-		height: 100%;
-		width: 100%;
-		background-repeat: no-repeat;
-		left: 0;
-		top: 0;
-		background-size: contain;
-		width: 50%;
-		background-position: top left;
-	}
-
-	.page-landing .hero .section__bg--right {
-		position: absolute;
-		height: 100%;
-		width: 100%;
-		background-repeat: no-repeat;
-		right: 0;
-		top: 0;
-		background-size: contain;
-		width: 50%;
-		background-position: top right;
 	}
 </style>
 
