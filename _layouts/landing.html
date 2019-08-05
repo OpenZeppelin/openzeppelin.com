@@ -66,12 +66,12 @@ layout: default
 
 	.l-hero-quote .quote .quote-footer {
 		display: flex;
-    height: 48px;
-    align-items: center;
-    margin-top: 20px;
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 20px;
+		height: 48px;
+		align-items: center;
+		margin-top: 20px;
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 20px;
 	}
 
 	.l-hero-quote .quote .quote-footer .quote-author {
@@ -82,7 +82,8 @@ layout: default
 		line-height: initial;
 	}
 
-	.l-hero-quote .quote .quote-footer figure, .l-hero-quote .quote .quote-footer img {
+	.l-hero-quote .quote .quote-footer figure,
+	.l-hero-quote .quote .quote-footer img {
 		height: 100%;
 		border-radius: 4px;
 	}
@@ -94,8 +95,8 @@ layout: default
 	.l-cta .main-box {
 		margin-top: -190px;
 		display: flex;
-    justify-content: center;
-    align-items: center;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.l-cta .section-header {
@@ -119,8 +120,8 @@ layout: default
 	.l-cta .box .box-wrapper {
 		max-width: 775px;
 		display: flex;
-    justify-items: center;
-    align-items: center;
+		justify-items: center;
+		align-items: center;
 		text-align: center;
 		flex-direction: column-reverse;
 		width: 100%;
@@ -129,8 +130,8 @@ layout: default
 	.l-cta .box .box-side {
 		text-align: center;
 		display: flex;
-    justify-content: center;
-    align-items: center;
+		justify-content: center;
+		align-items: center;
 		margin-bottom: 50px;
 	}
 
@@ -143,177 +144,187 @@ layout: default
 		flex-direction: column;
 	}
 
-.l-cta .building-grid .box {
-	position: relative;
-	min-width: 200px;
-	margin: 0 auto;
-	margin-bottom: 20px;
-}
-
-.l-cta .building-grid .box:hover .box-heading {
-	color: #4e5ee4;
-}
-
-.l-cta .building-grid .box:hover .placed-icon #icon {
-	fill: #4e5ee4;
-}
-
-.l-cta .building-grid .box:hover .placed-icon {
-	opacity: 1;
-}
-
-.l-cta .building-grid .box .placed-icon {
-	position: absolute;
-	right: 33px;
-	top: 33px;
-	opacity: 0.4;
-	transition: all 0.25s linear;
-}
-
-.grid--challenges .col {
-	margin: 0;
-}
-
-@media (min-width: 769px) {
-	.page-landing .l-hero {
-		min-height: 380px;
-	}
-	.page-landing .l-hero .section__bg-landing {
-		display: block;
-	}
 	.l-cta .building-grid .box {
-		max-width: 70%;
-	}
-}
-
-@media (min-width: 980px) {
-	.l-cta .building-grid .row {
-		flex-direction: row;
-	}
-
-	.l-cta .building-grid .box {
-		height: 210px;
 		position: relative;
-		max-width: 320px;
+		min-width: 200px;
+		margin: 0 auto;
+		margin-bottom: 20px;
 	}
 
-	.l-cta .building-grid {
-		margin-left: -20px;
-		margin-left: -11px;
-    margin-right: -5px;
+	.l-cta .building-grid .box:hover .box-heading {
+		color: #4e5ee4;
 	}
 
-	.page-landing .grid-logos .grid-logos__logo {
-		width: 85%;
+	.l-cta .building-grid .box:hover .placed-icon #icon {
+		fill: #4e5ee4;
 	}
 
-	.l-projects .grid-logos {
-		margin: -20px -4px -20px -25px;
-		margin-bottom: 100px;
+	.l-cta .building-grid .box:hover .placed-icon {
+		opacity: 1;
 	}
 
-	.l-projects .projects-grid .row {
-    justify-content: space-between;
-    margin: 0 auto;
-    flex-direction: row;
-    justify-items: center;
-    align-items: center;
-    left: -11px;
-    position: relative;
+	.l-cta .building-grid .box .placed-icon {
+		position: absolute;
+		right: 33px;
+		top: 33px;
+		opacity: 0.4;
+		transition: all 0.25s linear;
 	}
 
-	section.section.l-hero-quote .quote {
-		padding: 80px 0;
-	}
-	.l-projects .projects-grid .item {
-		margin-right: 54px;
+	.grid--challenges .col {
+		margin: 0;
 	}
 
-	.l-cta .main-box .box-description {
-		padding-right: 117px;
+	@media (min-width: 769px) {
+		.page-landing .l-hero {
+			min-height: 380px;
+		}
+
+		.page-landing .l-hero .section__bg-landing {
+			display: block;
+		}
+
+		.l-cta .building-grid .box {
+			max-width: 70%;
+		}
 	}
 
-	.l-cta .box .box-wrapper {
-		flex-direction: row;
-		text-align: left;
+	@media (min-width: 980px) {
+		.l-cta .building-grid .row {
+			flex-direction: row;
+		}
+
+		.l-cta .building-grid .box {
+			height: 210px;
+			position: relative;
+			max-width: 320px;
+		}
+
+		.l-cta .building-grid {
+			margin-left: -20px;
+			margin-left: -11px;
+			margin-right: -5px;
+		}
+
+		.page-landing .grid-logos .grid-logos__logo {
+			width: 85%;
+		}
+
+		.l-projects .grid-logos {
+			margin: -20px -4px -20px -25px;
+			margin-bottom: 100px;
+		}
+
+		.l-projects .projects-grid .row {
+			justify-content: space-between;
+			margin: 0 auto;
+			flex-direction: row;
+			justify-items: center;
+			align-items: center;
+			left: -11px;
+			position: relative;
+		}
+
+		section.section.l-hero-quote .quote {
+			padding: 80px 0;
+		}
+
+		.l-projects .projects-grid .item {
+			margin-right: 54px;
+		}
+
+		.l-cta .main-box .box-description {
+			padding-right: 117px;
+		}
+
+		.l-cta .box .box-wrapper {
+			flex-direction: row;
+			text-align: left;
+		}
+
+		.l-cta .box .box-side {
+			margin-bottom: 0px;
+		}
+
+		.l-hero-quote .quote .quote-footer .quote-author {
+			font-size: 1rem;
+		}
+
+		.l-cta .main-box {
+			min-height: 270px;
+		}
+
+		.page-landing .l-hero {
+			overflow: hidden;
+			height: 350px;
+			min-height: 350px;
+			max-height: 500px;
+		}
+
+		.page-landing .hero .heading {
+			font-size: 2.25em;
+		}
+
+
+		.page-landing .hero .description {
+			margin: 0 auto;
+			max-width: 615px;
+			font-size: 1.1em;
+		}
+
+		@media (min-width: 1440px) {
+			height: 500px;
+		}
+
+		#background path {
+			animation: pulse 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite;
+
+			transform-origin: 50% 50%;
+			transform-box: fill-box;
+		}
+
+		@keyframes pulse {
+
+			/* Rotating it along with the scale makes it a little bit more fancy */
+			0%,
+			100% {
+				transform: scale(0) rotate(33deg);
+			}
+
+			35%,
+			65% {
+				transform: scale(1) rotate(0deg);
+			}
+		}
 	}
 
-	.l-cta .box .box-side {
-		margin-bottom: 0px;
+	.page-landing .hero {
+		background-color: #F8F8FA;
 	}
 
-	.l-hero-quote .quote .quote-footer .quote-author {
-		font-size: 1rem;
+	.page-landing .hero .section__bg--left {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		background-repeat: no-repeat;
+		left: 0;
+		top: 0;
+		background-size: contain;
+		width: 50%;
+		background-position: top left;
 	}
 
-	.l-cta .main-box {
-		min-height: 270px;
+	.page-landing .hero .section__bg--right {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		background-repeat: no-repeat;
+		right: 0;
+		top: 0;
+		background-size: contain;
+		width: 50%;
+		background-position: top right;
 	}
-
-	.page-landing .l-hero {
-		overflow: hidden;
-    height: 350px;
-    min-height: 350px;
-		max-height: 500px;
-	}
-
-	.page-landing .hero .heading {
-    font-size: 2.25em;
-	}
-
-
-	.page-landing .hero .description {
-    margin: 0 auto;
-    max-width: 615px;
-		font-size: 1.1em;
-	}
-
-	@media (min-width: 1440px) {
-		height: 500px;
-	}
-
-	#background path {
-		animation: pulse 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite;
-
-		transform-origin: 50% 50%;
-		transform-box: fill-box;
-	}
-
-	@keyframes pulse {
-		/* Rotating it along with the scale makes it a little bit more fancy */
-		0%, 100% { transform: scale(0) rotate(33deg); }
-		35%, 65% { transform: scale(1) rotate(0deg); }
-	}
-}
-
-.page-landing .hero {
-	background-color: #F8F8FA;
-}
-
-.page-landing .hero .section__bg--left {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	background-repeat: no-repeat;
-	left: 0;
-	top: 0;
-	background-size: contain;
-	width: 50%;
-	background-position: top left;
-}
-
-.page-landing .hero .section__bg--right {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	background-repeat: no-repeat;
-	right: 0;
-	top: 0;
-	background-size: contain;
-	width: 50%;
-	background-position: top right;
-}
-
 </style>
 
 <main class="page page-landing">
@@ -327,8 +338,10 @@ layout: default
 				</p>
 			</div>
 		</div>
-		<div class="section__bg-landing section__bg--left" style="background-image:url('/images/bg/hero/half/svg/bg_home_left.svg')"></div>
-		<div class="section__bg-landing section__bg--right" style="background-image:url('/images/bg/hero/half/svg/bg_home_right.svg')"></div>
+		<div class="section__bg-landing section__bg--left"
+			style="background-image:url('/images/bg/hero/half/svg/bg_home_left.svg')"></div>
+		<div class="section__bg-landing section__bg--right"
+			style="background-image:url('/images/bg/hero/half/svg/bg_home_right.svg')"></div>
 	</section>
 	<section class="section l-projects section--white">
 		<div class="container container--lg">
@@ -391,7 +404,8 @@ layout: default
 			<div class="section-header">
 				<h2 class="heading">Your blueprint for decentralized systems</h2>
 				<p class="description">
-					Reduce barriers to entry by securely implementing blockchain-based technologies, using standard developer tools and platforms.
+					Reduce barriers to entry by securely implementing blockchain-based technologies, using standard developer
+					tools and platforms.
 				</p>
 			</div>
 			{% include projects-grid.html %}
@@ -407,8 +421,8 @@ layout: default
 						<img class="img" src="../images/brendan.jpg" alt="Brendan Eich">
 					</figure>
 					<span class="quote-author">
-						<strong>Brendan Eich </strong> |  <cite>Founder of Mozilla and Brave, Javascript creator.</cite>
-					<span>
+						<strong>Brendan Eich </strong> | <cite>Founder of Mozilla and Brave, Javascript creator.</cite>
+						<span>
 				</footer>
 			</blockquote>
 		</div>
@@ -417,27 +431,30 @@ layout: default
 		<div class="container">
 			<div class="main-box box box--secondary">
 				<div class="box-wrapper">
-				<div class="box-main">
-					<h2 class="box-heading">In-depth security audits</h2>
-					<p class="box-description">
-						In an economy where software code powers real money, security is a top priority.
-						We specialize in auditing in high-impact decentralized systems.
-					</p>
-					<a href="/security-audits" class="btn btn--bordered btn--fixed">
-						Learn More
-					</a>
-				</div>
-				<div class="box-side">
-					<svg width="77px" height="96px" viewBox="0 0 77 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<div class="box-main">
+						<h2 class="box-heading">In-depth security audits</h2>
+						<p class="box-description">
+							In an economy where software code powers real money, security is a top priority.
+							We specialize in auditing in high-impact decentralized systems.
+						</p>
+						<a href="/security-audits" class="btn btn--bordered btn--fixed">
+							Learn More
+						</a>
+					</div>
+					<div class="box-side">
+						<svg width="77px" height="96px" viewBox="0 0 77 96" version="1.1" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink">
 							<g id="Zeppelin-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-									<g id="Homepage_V1" transform="translate(-1008.000000, -2314.000000)" fill="#4E5EE4">
-											<g id="Group-9" transform="translate(244.000000, 2217.000000)">
-													<path d="M837.15,97 L802.5,100.830933 L767.85,97 L767.85,109.48 L802.5,113.310933 L837.15,109.48 L837.15,97 Z M802.5,125.790933 L767.85,121.96 L764,173.8 L802.5,193 L841,173.8 L837.15,121.96 L802.5,125.790933 Z" id="Fill-16"></path>
-											</g>
+								<g id="Homepage_V1" transform="translate(-1008.000000, -2314.000000)" fill="#4E5EE4">
+									<g id="Group-9" transform="translate(244.000000, 2217.000000)">
+										<path
+											d="M837.15,97 L802.5,100.830933 L767.85,97 L767.85,109.48 L802.5,113.310933 L837.15,109.48 L837.15,97 Z M802.5,125.790933 L767.85,121.96 L764,173.8 L802.5,193 L841,173.8 L837.15,121.96 L802.5,125.790933 Z"
+											id="Fill-16"></path>
 									</g>
+								</g>
 							</g>
-					</svg>
-				</div>
+						</svg>
+					</div>
 				</div>
 			</div>
 			<div class="section-header">
@@ -451,47 +468,61 @@ layout: default
 				<div class="row">
 					<a class="col box box--secondary a-scale" href="http://docs.openzeppelin.com">
 						<span class="placed-icon">
-							<svg width="20px" height="24px" viewBox="0 0 20 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-									<g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-											<g id="Card-community" transform="translate(-253.000000, -43.000000)" fill="#282846">
-													<g id="icon" transform="translate(251.000000, 43.000000)">
-															<path d="M22,15.5 L14,23.5 L2,23.5 L2,0.5 L22,0.5 L22,15.5 Z M14,21.5 L20,15.5 L14,15.5 L14,21.5 Z" id="Combined-Shape" transform="translate(12.000000, 12.000000) scale(1, -1) translate(-12.000000, -12.000000) "></path>
-													</g>
-											</g>
+							<svg width="20px" height="24px" viewBox="0 0 20 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink">
+								<g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+									<g id="Card-community" transform="translate(-253.000000, -43.000000)" fill="#282846">
+										<g id="icon" transform="translate(251.000000, 43.000000)">
+											<path
+												d="M22,15.5 L14,23.5 L2,23.5 L2,0.5 L22,0.5 L22,15.5 Z M14,21.5 L20,15.5 L14,15.5 L14,21.5 Z"
+												id="Combined-Shape"
+												transform="translate(12.000000, 12.000000) scale(1, -1) translate(-12.000000, -12.000000) ">
+											</path>
+										</g>
 									</g>
+								</g>
 							</svg>
 						</span>
 						<h3 class="box-heading">Docs</h3>
 						<p class="box-description">
-							Learn everything you need to develop blockchain applications through a complete set of guides and tutorials.
+							Learn everything you need to develop blockchain applications through a complete set of guides and
+							tutorials.
 						</p>
 					</a>
 					<a class="col box box--secondary a-scale" href="http://forum.openzeppelin.com">
 						<span class="placed-icon">
-							<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-									<g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-											<g id="icon" fill="#282846" fill-rule="nonzero">
-													<path d="M12,6.39488462e-14 C18.627408,6.39488462e-14 24,5.36186826 24,11.9760479 L24,11.9760958 C24,18.5902754 18.627408,23.9521437 12,23.9521437 L0,23.9521437 L0,11.9760479 C0,5.36186826 5.372544,6.39488462e-14 11.999952,6.39488462e-14 L12,6.39488462e-14 Z M5.568,10.5953533 L18.528,10.5953533 L18.528,6.85882635 L5.568,6.85882635 L5.568,10.5953533 Z M5.568,17.1264192 L14.928,17.1264192 L14.928,13.3898922 L5.568,13.3898922 L5.568,17.1264192 Z" id="Fill-1"></path>
-											</g>
+							<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink">
+								<g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+									<g id="icon" fill="#282846" fill-rule="nonzero">
+										<path
+											d="M12,6.39488462e-14 C18.627408,6.39488462e-14 24,5.36186826 24,11.9760479 L24,11.9760958 C24,18.5902754 18.627408,23.9521437 12,23.9521437 L0,23.9521437 L0,11.9760479 C0,5.36186826 5.372544,6.39488462e-14 11.999952,6.39488462e-14 L12,6.39488462e-14 Z M5.568,10.5953533 L18.528,10.5953533 L18.528,6.85882635 L5.568,6.85882635 L5.568,10.5953533 Z M5.568,17.1264192 L14.928,17.1264192 L14.928,13.3898922 L5.568,13.3898922 L5.568,17.1264192 Z"
+											id="Fill-1"></path>
 									</g>
+								</g>
 							</svg>
 						</span>
 						<h3 class="box-heading">Forum</h3>
-						<p class="box-description">Connect with experts, beginners and enthusiasts and discuss about blockchain development, security, design patterns and best practices.</p>
+						<p class="box-description">Connect with experts, beginners and enthusiasts and discuss about blockchain
+							development, security, design patterns and best practices.</p>
 					</a>
 					<a class="col box box--secondary a-scale" href="http://ethernaut.openzeppelin.com">
 						<span class="placed-icon">
-							<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-									<g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-											<g id="icon" fill="#282846">
-													<polygon id="Triangle" transform="translate(12.000000, 12.000000) rotate(90.000000) translate(-12.000000, -12.000000) " points="12 0 24 24 0 24"></polygon>
-											</g>
+							<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink">
+								<g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+									<g id="icon" fill="#282846">
+										<polygon id="Triangle"
+											transform="translate(12.000000, 12.000000) rotate(90.000000) translate(-12.000000, -12.000000) "
+											points="12 0 24 24 0 24"></polygon>
 									</g>
+								</g>
 							</svg>
 						</span>
 						<h3 class="box-heading">Ethernaut</h3>
 						<p class="box-description">
-							A Web3/Solidity based wargame played in Ethereum where each level is a smart contract that needs to be hacked.
+							A Web3/Solidity based wargame played in Ethereum where each level is a smart contract that needs to be
+							hacked.
 						</p>
 					</a>
 				</div>
