@@ -1295,6 +1295,7 @@ section .heading + .grid-logos {
 	/** Mobile should be half **/
 	width: 50%;
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 .grid-logos .grid-logos__col {
@@ -1371,7 +1372,6 @@ section .heading + .grid-logos {
 		width: auto;
 		max-width: 180px;
 		height: 70px;
-		margin-bottom: 40px;
 	}
 
 	.grid-logos .grid-logos__logo {
@@ -1471,14 +1471,16 @@ section .heading + .grid-logos {
 	}
 }
 
-@media (min-width: 300px) and (max-width: 720px) {
+@media (min-width: 300px) and (max-width: 700px) {
 	.page-product.page-start .grid-logos .grid-logos__logo {
 		width: 90%;
 		height: 100%;
 	}
-
-	.page-product.page-start .grid-logos .grid-logos__col:not(:last-child) {
-		margin-bottom: 50px
+	.page-product.page-start .grid-logos .openzeppelin-logo {
+		width: 65%;
+	}
+	.page-product.page-start .grid-logos .grid-logos__col:last-child {
+		margin-bottom: 0;
 	}
 }
 
