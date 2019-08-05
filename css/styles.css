@@ -1502,7 +1502,7 @@ section .heading + .grid-logos {
 }
 
 @media (min-width: 400px) and (max-width: 600px) {
-	.page-security section.section.section--cutted.security-audits-hero .heading {
+	.page-security section.section.section--cutted.security-audits-hero .wrapper .heading {
     max-width: 250px;
     margin-left: 0;
 	}
