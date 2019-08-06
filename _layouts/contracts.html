@@ -2,6 +2,20 @@
 layout: default
 ---
 
+<style>
+	.page-contracts .term-container .term__menu .term__menu-link {
+		text-transform: uppercase;
+		opacity: 0.6;
+		font-size: 1rem;
+		color: #3C3C57;
+		letter-spacing: 0.5px;
+		font-weight: bold;
+		font-family: Menlo, sans-serif;
+		cursor: pointer;
+		padding: 25px 0;
+	}
+</style>
+
 <main class="page page-product page-contracts">
 	<div class="p-nav-placeholder"></div>
 	<nav class="p-nav p-nav--white" id="new-sub-nav">
@@ -76,6 +90,9 @@ layout: default
 					<div class="bottom-terminal vim-bottom-terminal" id="terminal-bottom"></div>
 				</div>
 			</section>
+			<nav class="term__menu">
+				<a class="term__menu-link reset" data-anim-name="f2">replay</a>
+			</nav>
 		</div>
 		<div class="section__bg" style="background-image:url('/images/bg/bg_contracts_full.svg')"></div>
 		<div class="section__bg-final" style="background-image:url('/images/bg/final_tg.svg')"></div>
