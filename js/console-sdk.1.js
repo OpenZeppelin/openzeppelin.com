@@ -17,8 +17,8 @@ function type(text, typespeed = 1000) {
   });
 }
 
-function prompt({ elem, delay, cb = () => {} }) {
-  setTimeout(function() {
+function prompt({ elem, delay, cb = () => { } }) {
+  setTimeout(function () {
     createElement.apply(null, elem);
     cb();
   }, delay);
@@ -39,7 +39,7 @@ var commands = [
       '<span style="color:#87cc37">✓</span>&nbsp;<span style="color:white">Pick a contract to instantiate</span>',
       '.type-wrap',
     ],
-    cb: function() {
+    cb: function () {
       type('<span style="color:#4de4e3">Counter</span></br>');
     },
   },
@@ -50,7 +50,7 @@ var commands = [
       '<span style="color:#87cc37">✓</span>&nbsp;<span style="color:white">Pick a network</span>',
       '.type-wrap',
     ],
-    cb: function() {
+    cb: function () {
       type('<span style="color:#4de4e3">development</span>');
     },
   },
@@ -115,6 +115,6 @@ function f2() {
   // }, 500);
 }
 
-(function($) {
+(function ($) {
   type('$ openzeppelin create', f2());
 })(jQuery);
