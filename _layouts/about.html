@@ -3,8 +3,12 @@ layout: default
 ---
 
 <style>
+	.page-about-us .section-hero-about-us.hero .container {
+		height: calc(100vh - 70px);
+	}
+
 	.page-about-us .hero .description {
-    max-width: 800px;
+		max-width: 800px;
 	}
 
 	.page-about-us .section-team-header {
@@ -16,15 +20,27 @@ layout: default
 	}
 
 	.page-about-us .hero h1.heading {
-		max-width: 290px;
+		max-width: 400px;
 	}
 
 	@media (min-width: 980px) {
+		.page-about-us .section-hero-about-us.hero .container {
+			height: calc(60vh - 70px);
+		}
+
 		.page-about-us .section-clients-partners .description {
 			white-space: nowrap;
 		}
+
 		.page-about-us .hero h1.heading {
-			max-width: 80%;
+			font-size: 2.2rem;
+			max-width: 90%;
+		}
+	}
+
+	@media (max-height: 600px) {
+		.page-about-us .section-hero-about-us.hero .container {
+			height: calc(100vh - 70px);
 		}
 	}
 </style>
@@ -35,47 +51,51 @@ layout: default
 		<div class="container">
 			<h1 class="heading fIu">We build technology to bring freedom to the world</h1>
 			<p class="description fIu">
-				OpenZeppelin builds developer tools and performs security audits for distributed systems that power multimillion-dollar economies. Founded in 2015, OpenZeppelin has set industry standards for building secure distributed systems.
+				OpenZeppelin builds developer tools and performs security audits for distributed systems that power
+				multimillion-dollar economies. Founded in 2015, OpenZeppelin has set industry standards for building secure
+				distributed systems.
 			</p>
 		</div>
 	</section>
 
 	<section class="section section-clients-partners">
 		<div class="container">
-				<div class="wrapper wrapper--centered center">
-					<h2 class="heading">Clients and partners</h2>
-					<p class="description">
-						Over the years we’ve gained the trust of the leading organizations in the space.
-					</p>
-				</div>
-				<div class="cp-grid">
-					{% include partners.html %}
-				</div>
+			<div class="wrapper wrapper--centered center">
+				<h2 class="heading">Clients and partners</h2>
+				<p class="description">
+					Over the years we’ve gained the trust of the leading organizations in the space.
+				</p>
+			</div>
+			<div class="cp-grid">
+				{% include partners.html %}
+			</div>
 		</div>
 	</section>
 
 	<section class="section section-team section--gray">
 		<div class="container">
-				<div class="section-team-header wrapper wrapper--sm">
-					<h2 class="heading">A distributed team working with distributed technologies</h2>
-					<p class="description">
-						Team members are spread across multiple locations, including San Francisco, New York, Buenos Aires, Punta del Este, Melbourne, Milan, Tokyo, Moscow, San José de Costa Rica, and Toronto.
-					</p>
-				</div>
-				<div class="cp-grid">
-					{% include team.html %}
-				</div>
+			<div class="section-team-header wrapper wrapper--sm">
+				<h2 class="heading">A distributed team working with distributed technologies</h2>
+				<p class="description">
+					Team members are spread across multiple locations, including San Francisco, New York, Buenos Aires, Punta del
+					Este, Melbourne, Milan, Tokyo, Moscow, San José de Costa Rica, and Toronto.
+				</p>
+			</div>
+			<div class="cp-grid">
+				{% include team.html %}
+			</div>
 		</div>
 		<div class="container center">
-      <a class="btn btn--lg" href="/jobs">want to join us?</a>
-    </div>
+			<a class="btn btn--lg" href="/jobs">want to join us?</a>
+		</div>
 	</section>
 
 	<section class="section hero section-contact">
 		<div class="container">
 			<div class="wrapper">
 				<h2 class="heading">Contact</h2>
-				<p class="description">For general inqueries, including partnership opportunities, please email <a href="mailto:contact@openzeppelin.com">contact@openzeppelin.com</a></p>
+				<p class="description">For general inqueries, including partnership opportunities, please email <a
+						href="mailto:contact@openzeppelin.com">contact@openzeppelin.com</a></p>
 			</div>
 		</div>
 	</section>

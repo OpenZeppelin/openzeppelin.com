@@ -12,7 +12,7 @@ layout: default
 	}
 
 	.page-landing .l-hero .container {
-		height: calc(60vh - 70px);
+		height: calc(100vh - 70px);
 	}
 
 	.page-landing .l-hero .section__bg-landing {
@@ -47,7 +47,7 @@ layout: default
 	}
 
 	section.section.l-hero-quote .quote {
-		padding: 40px 0 80px;
+		padding: 65px 0 120px;
 	}
 
 	section.section.l-hero-quote {
@@ -177,13 +177,17 @@ layout: default
 		transition: all 0.25s linear;
 	}
 
-	.grid--challenges .col {
-		margin: 0;
+	.grid--challenges .row {
+		flex-direction: column;
 	}
 
 	@media (min-width: 769px) {
 		.page-landing .l-hero {
 			min-height: 380px;
+		}
+
+		.page-landing .l-hero .container {
+			height: calc(60vh - 70px);
 		}
 
 		.page-landing .l-hero .section__bg-landing {
@@ -192,6 +196,19 @@ layout: default
 
 		.l-cta .building-grid .box {
 			max-width: 70%;
+		}
+
+		.grid--challenges .row {
+			flex-direction: row;
+		}
+
+		.grid--challenges>.row .box--primary {
+			border-right: solid 1px #D8D8D8;
+			border-bottom: none;
+		}
+
+		.grid--challenges>.row .box--primary:last-of-type {
+			border-right: none;
 		}
 	}
 
@@ -236,7 +253,7 @@ layout: default
 		}
 
 		section.section.l-hero-quote .quote {
-			padding: 80px 0;
+			padding: 120px 0;
 		}
 
 		.l-projects .projects-grid .item {

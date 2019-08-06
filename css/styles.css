@@ -938,10 +938,6 @@ body .overlay--active {
 		margin-bottom: 0;
 	}
 
-	.hero {
-		height: 384px;
-	}
-
 	.box--primary {
 		border-right: solid 1px #D8D8D8;
 		border-bottom: 0;
@@ -1481,13 +1477,6 @@ section .heading + .grid-logos {
 	}
 	.page-product.page-start .grid-logos .grid-logos__col:last-child {
 		margin-bottom: 0;
-	}
-}
-
-
-@media (min-width: 420px) and (max-width: 1024px) {
-	.grid--challenges > .row .box--primary {
-		border-bottom: none;
 	}
 }
 
