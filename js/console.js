@@ -1,67 +1,83 @@
-(function($) {
-  setTimeout(function() {
-    $('#typed').typed({
-      strings: ['[~] $ npm install openzeppelin-solidity'],
-      typespeed: 800,
-      backdelay: 0,
-      loop: false,
-      contentType: 'html',
-      loopCount: false,
-      callback: function() {
-        installing();
-      },
-    });
-  }, 1000);
+(function ($) {
+  setTimeout(install, 1000);
+  $('.reset').click(function () {
+    $('#typed').typed('reset');
+    document.getElementById('installing').innerHTML = '';
+    $('#typed-installing').typed('reset');
+    document.getElementById('fixed-text').innerHTML = '';
+    $('#typed2').typed('reset');
+    $('#typed3').typed('reset');
+    document.getElementById('fixed-text3').innerHTML = '';
+    $('#typed4').typed('reset');
+    $('#typed-vim').typed('reset');
+    document.getElementById('fixed-text4').innerHTML = '';
+
+    $('#terminal').addClass('terminal-center');
+    $('.p-animated').removeClass('expanded');
+    $('#terminal').removeClass('terminal-left');
+    $('#terminal2').addClass('terminal-center');
+    $('#terminal2').removeClass('terminal-right');
+
+    setTimeout(install, 500);
+  });
 })(jQuery);
+
+function install() {
+  $('#typed').typed({
+    strings: ['[~] $ npm install openzeppelin-solidity'],
+    typeSpeed: 20,
+    backdelay: 0,
+    loop: false,
+    contentType: 'html',
+    loopCount: false,
+    callback: function () {
+      installing();
+    },
+  });
+}
 
 function installing() {
   $('.terminal .typed-cursor').css('color', 'black');
-  setTimeout(function() {
+  setTimeout(function () {
     document.getElementById('installing').innerHTML = '</br> Installing ';
   }, 500);
-  setTimeout(function() {
+  setTimeout(function () {
     $('#typed-installing').typed({
       strings: [
         '<span style="color:#BDBADB"> [==^300===^100==^50==^200===] 100%</span>',
       ],
-      typespeed: 800,
+      typeSpeed: 0,
       backDelay: 0,
       loop: false,
       contentType: 'html',
       loopCount: false,
-      callback: function() {
+      callback: function () {
         fixedText1and2();
       },
-    });
-    $('.reset').click(function() {
-      $('#typed').typed('reset');
     });
   }, 600);
 }
 
 function fixedText1and2() {
   $('.terminal .typed-cursor').css('color', 'black');
-  setTimeout(function() {
+  setTimeout(function () {
     document.getElementById('fixed-text').innerHTML =
       '</br> + openzeppelin-solidity@2.1.1</br>';
   }, 200);
-  setTimeout(function() {
+  setTimeout(function () {
     $('#typed2').typed({
       strings: ['[~] $ vim ExampleToken.sol^500'],
-      typespeed: 800,
+      typeSpeed: 20,
       backdelay: 0,
       loop: false,
       contentType: 'html',
       loopCount: false,
-      callback: function() {
+      callback: function () {
         typeVim();
       },
-      resetCallback: function() {
-        newTyped();
-      },
-    });
-    $('.reset').click(function() {
-      $('#typed').typed('reset');
+      // resetCallback: function () {
+      //   newTyped();
+      // },
     });
   }, 900);
 }
@@ -74,7 +90,7 @@ function typeVim() {
   $('#terminal').addClass('terminal-left');
   $('#terminal2').removeClass('terminal-center');
   $('#terminal2').addClass('terminal-right');
-  setTimeout(function() {
+  setTimeout(function () {
     $('#typed-vim').typed({
       strings: [
         [
@@ -92,12 +108,12 @@ function typeVim() {
           '}',
         ].join('<br>'),
       ],
-      typespeed: 800,
+      typeSpeed: 20,
       backdelay: 0,
       loop: false,
       contentType: 'html',
       loopCount: false,
-      callback: function() {
+      callback: function () {
         typeThree();
       },
     });
@@ -106,17 +122,17 @@ function typeVim() {
 
 function typeThree() {
   $('.terminal .typed-cursor').css('color', 'black');
-  setTimeout(function() {
+  setTimeout(function () {
     $('#typed3').typed({
       strings: [
         '<br>[~] $ truffle console^500</br>> const myToken = await ExampleToken.new();^500</br>> myToken.totalSupply()',
       ],
-      typespeed: 800,
+      typeSpeed: 20,
       backdelay: 0,
       loop: false,
       contentType: 'html',
       loopCount: false,
-      callback: function() {
+      callback: function () {
         fixedText3();
       },
     });
@@ -125,19 +141,19 @@ function typeThree() {
 
 function fixedText3() {
   $('.terminal .typed-cursor').css('color', 'black');
-  setTimeout(function() {
+  setTimeout(function () {
     document.getElementById('fixed-text3').innerHTML =
       '</br> 10000000000000000000000';
   }, 500);
-  setTimeout(function() {
+  setTimeout(function () {
     $('#typed4').typed({
       strings: ['</br>> myToken.transfer(...)'],
-      typespeed: 800,
+      typeSpeed: 20,
       backdelay: 0,
       loop: false,
       contentType: 'html',
       loopCount: false,
-      callback: function() {
+      callback: function () {
         fixedText4();
       },
     });
@@ -146,7 +162,7 @@ function fixedText3() {
 
 function fixedText4() {
   $('.terminal .typed-cursor').css('color', 'black');
-  setTimeout(function() {
+  setTimeout(function () {
     document.getElementById('fixed-text4').innerHTML =
       '</br>true<span style="color: #5FD9F0;">|</span>';
   }, 500);

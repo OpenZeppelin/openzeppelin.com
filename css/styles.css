@@ -938,10 +938,6 @@ body .overlay--active {
 		margin-bottom: 0;
 	}
 
-	.hero {
-		height: 384px;
-	}
-
 	.box--primary {
 		border-right: solid 1px #D8D8D8;
 		border-bottom: 0;
@@ -1023,7 +1019,7 @@ html {
 }
 
 .page-product .p-animated.expanded, .page-product .p-animated.expanded .terminal-section {
-	height: 780px;
+	height: 430px;
 }
 
 .page-product .c-explained .heading {
@@ -1208,9 +1204,22 @@ html {
 	max-width: 500px;
 }
 
+.page-product .p-logo.contracts-logo {
+	margin-right: 1rem;
+}
+
 .page-product .p-logo#sdk-logo > img {
 	margin-left: -31px;
+	position: relative;
+	bottom: 4px;
 }
+
+.page-product .p-logo#starter-logo > img {
+	margin-right: 1rem;
+	position: relative;
+	bottom: 3px;
+}
+
 .page-product .c-hero .description {
 	max-width: 770px;
 }
@@ -1282,6 +1291,7 @@ section .heading + .grid-logos {
 	/** Mobile should be half **/
 	width: 50%;
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 .grid-logos .grid-logos__col {
@@ -1358,7 +1368,6 @@ section .heading + .grid-logos {
 		width: auto;
 		max-width: 180px;
 		height: 70px;
-		margin-bottom: 40px;
 	}
 
 	.grid-logos .grid-logos__logo {
@@ -1458,21 +1467,16 @@ section .heading + .grid-logos {
 	}
 }
 
-@media (min-width: 300px) and (max-width: 720px) {
+@media (min-width: 300px) and (max-width: 700px) {
 	.page-product.page-start .grid-logos .grid-logos__logo {
 		width: 90%;
 		height: 100%;
 	}
-
-	.page-product.page-start .grid-logos .grid-logos__col:not(:last-child) {
-		margin-bottom: 50px
+	.page-product.page-start .grid-logos .openzeppelin-logo {
+		width: 65%;
 	}
-}
-
-
-@media (min-width: 420px) and (max-width: 1024px) {
-	.grid--challenges > .row .box--primary {
-		border-bottom: none;
+	.page-product.page-start .grid-logos .grid-logos__col:last-child {
+		margin-bottom: 0;
 	}
 }
 
@@ -1487,7 +1491,7 @@ section .heading + .grid-logos {
 }
 
 @media (min-width: 400px) and (max-width: 600px) {
-	.page-security section.section.section--cutted.security-audits-hero .heading {
+	.page-security section.section.section--cutted.security-audits-hero .wrapper .heading {
     max-width: 250px;
     margin-left: 0;
 	}

@@ -25,7 +25,7 @@ function createElement(type = 'span', props, str, parent) {
   return el;
 }
 
-function type(parent, text, cb = () => {}, opts = {}) {
+function type(parent, text, cb = () => { }, opts = {}) {
   var el = createElement('span', null, '', parent);
   $(el).typed({
     strings: ['<span style="color:white">' + text + '</span>'],
@@ -53,8 +53,8 @@ function f2(el, done) {
   setActive('f2');
   type(el, '$ openzeppelin create');
   $('.typed-cursor').css('color', 'black');
-  setTimeout(function() {
-    setTimeout(function() {
+  setTimeout(function () {
+    setTimeout(function () {
       createElement(
         'div',
         null,
@@ -62,15 +62,15 @@ function f2(el, done) {
         el
       );
     }, 500);
-    setTimeout(function() {
+    setTimeout(function () {
       createElement(
         'span',
         null,
         '<span style="color:#87cc37">✓</span>&nbsp;<span style="color:white">Pick a contract to instantiate&nbsp;</span>',
         el
       );
-      type(el, '<span style="color:#4de4e3">Counter</span></br>', function() {
-        setTimeout(function() {
+      type(el, '<span style="color:#4de4e3">Counter</span></br>', function () {
+        setTimeout(function () {
           createElement(
             'span',
             null,
@@ -80,48 +80,48 @@ function f2(el, done) {
           type(
             el,
             '<span style="color:#4de4e3">development</span>',
-            function() {
-              setTimeout(function() {
+            function () {
+              setTimeout(function () {
                 createElement(
                   'div',
                   null,
                   '<span class="tc-green">✓</span>&nbsp;<span class="tc-violet">Added contract Counter</span>',
                   el
                 );
-                setTimeout(function() {
+                setTimeout(function () {
                   createElement(
                     'div',
                     null,
                     '<span class="tc-green">✓</span>&nbsp;<span class="tc-violet">Contract Counter deployed</span>',
                     el
                   );
-                  setTimeout(function() {
+                  setTimeout(function () {
                     createElement(
                       'div',
                       null,
                       '<span class="tc-strong">All contracts have been deployed</span>',
                       el
                     );
-                    setTimeout(function() {
+                    setTimeout(function () {
                       createElement(
                         'span',
                         null,
                         '<span class="tc-green">?</span>&nbsp;<span class="tc-strong">Do you want to call a function on </br> the instance after creating it?&nbsp;</span>',
                         el
                       );
-                      setTimeout(function() {
+                      setTimeout(function () {
                         type(
                           el,
                           '<span style="color: white">No</span>',
                           function f4() {
-                            setTimeout(function() {
+                            setTimeout(function () {
                               createElement(
                                 'div',
                                 null,
                                 '<span class="tc-green">✓</span>&nbsp;<span class="tc-violet">Setting everything up to </br> create contract instances</span>',
                                 el
                               );
-                              setTimeout(function() {
+                              setTimeout(function () {
                                 createElement(
                                   'div',
                                   null,
@@ -149,8 +149,8 @@ function f2(el, done) {
 function f3(el, done) {
   setActive('f3');
   type(el, '$ openzeppelin send-tx</br>');
-  setTimeout(function() {
-    setTimeout(function() {
+  setTimeout(function () {
+    setTimeout(function () {
       createElement(
         'span',
         null,
@@ -160,8 +160,8 @@ function f3(el, done) {
       type(
         el,
         '<span style="color:#4de4e3">development</span></br>',
-        function() {
-          setTimeout(function() {
+        function () {
+          setTimeout(function () {
             createElement(
               'span',
               null,
@@ -171,8 +171,8 @@ function f3(el, done) {
             type(
               el,
               '<span style="color:#4de4e3">Counter at</span>',
-              function() {
-                setTimeout(function() {
+              function () {
+                setTimeout(function () {
                   createElement(
                     'div',
                     null,
@@ -180,7 +180,7 @@ function f3(el, done) {
                     el
                   );
                 }, 800);
-                setTimeout(function() {
+                setTimeout(function () {
                   createElement(
                     'div',
                     null,
@@ -190,8 +190,8 @@ function f3(el, done) {
                   type(
                     el,
                     '<span style="color:#4de4e3">increase()</span></br>',
-                    function() {
-                      setTimeout(function() {
+                    function () {
+                      setTimeout(function () {
                         createElement(
                           'span',
                           null,
@@ -215,8 +215,8 @@ function f3(el, done) {
 function f4(el, done) {
   setActive('f4');
   type(el, '$ openzeppelin call</br>');
-  setTimeout(function() {
-    setTimeout(function() {
+  setTimeout(function () {
+    setTimeout(function () {
       createElement(
         'span',
         null,
@@ -226,8 +226,8 @@ function f4(el, done) {
       type(
         el,
         '<span style="color:#4de4e3">development</span></br>',
-        function() {
-          setTimeout(function() {
+        function () {
+          setTimeout(function () {
             createElement(
               'span',
               null,
@@ -237,8 +237,8 @@ function f4(el, done) {
             type(
               el,
               '<span style="color:#4de4e3">Counter at</span>',
-              function() {
-                setTimeout(function() {
+              function () {
+                setTimeout(function () {
                   createElement(
                     'div',
                     null,
@@ -246,7 +246,7 @@ function f4(el, done) {
                     el
                   );
                 }, 800);
-                setTimeout(function() {
+                setTimeout(function () {
                   createElement(
                     'div',
                     null,
@@ -256,8 +256,8 @@ function f4(el, done) {
                   type(
                     el,
                     '<span style="color:#4de4e3">value()</span></br>',
-                    function() {
-                      setTimeout(function() {
+                    function () {
+                      setTimeout(function () {
                         createElement(
                           'span',
                           null,
@@ -282,16 +282,16 @@ function f5(el, done) {
   setActive('f5');
   type(el, '$ openzeppelin upgrade</br>');
   $('.typed-cursor').css('color', 'black');
-  setTimeout(function() {
-    setTimeout(function() {
+  setTimeout(function () {
+    setTimeout(function () {
       createElement(
         'span',
         null,
         '<span style="color:#87cc37">✓</span>&nbsp;<span style="color:white">Pick a network&nbsp;</span>',
         el
       );
-      type(el, '<span style="color:#4de4e3">development</span>', function() {
-        setTimeout(function() {
+      type(el, '<span style="color:#4de4e3">development</span>', function () {
+        setTimeout(function () {
           createElement(
             'div',
             null,
@@ -304,27 +304,27 @@ function f5(el, done) {
             '<span class="tc-green">✓</span>&nbsp;<span class="tc-violet">Contract Counter deployed</span>',
             el
           );
-          setTimeout(function() {
+          setTimeout(function () {
             createElement(
               'div',
               null,
               '<span class="tc-strong">All contracts have been deployed</span>',
               el
             );
-            setTimeout(function() {
+            setTimeout(function () {
               createElement(
                 'span',
                 null,
                 '<span class="tc-green">?</span>&nbsp;<span class="tc-strong">Which instances would you like to upgrade?&nbsp;</span></br>',
                 el
               );
-              setTimeout(function() {
+              setTimeout(function () {
                 type(
                   el,
                   '<span style="color: white">All instances</span>',
-                  function() {
-                    setTimeout(function() {
-                      setTimeout(function() {
+                  function () {
+                    setTimeout(function () {
+                      setTimeout(function () {
                         createElement(
                           'div',
                           null,
@@ -352,18 +352,18 @@ var animations = {
   f5: f5,
 };
 
-(function($) {
+(function ($) {
   function initAnimation() {
-    f2(typeWrap, function() {
-      setTimeout(function() {
+    f2(typeWrap, function () {
+      setTimeout(function () {
         typeWrap.empty();
-        f3(typeWrap, function() {
-          setTimeout(function() {
+        f3(typeWrap, function () {
+          setTimeout(function () {
             typeWrap.empty();
-            f4(typeWrap, function() {
-              setTimeout(function() {
+            f4(typeWrap, function () {
+              setTimeout(function () {
                 typeWrap.empty();
-                f5(typeWrap, function() {
+                f5(typeWrap, function () {
                   console.log('Animation done');
                 });
               }, 2100);
@@ -375,7 +375,7 @@ var animations = {
   }
 
   function init() {
-    $('.term__menu-list__link').click(function() {
+    $('.term__menu-list__link').click(function () {
       isRunning = false;
       $('.term__menu-list__link').removeClass('term__menu-list__link--active');
       $(this).addClass('term__menu-list__link--active');
@@ -392,7 +392,7 @@ var animations = {
         wrap
       );
       var animname = $(this).data('anim-name');
-      animations[animname](typeWrap, function() {
+      animations[animname](typeWrap, function () {
         console.log('Anim Once - Done');
       });
     });
