@@ -1531,9 +1531,3 @@ section .heading + .grid-logos {
 	}
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
-	.hero .wrapper {
-		margin-bottom: 5vh;
-	}
-}
-
