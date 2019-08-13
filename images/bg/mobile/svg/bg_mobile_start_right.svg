@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="531px" viewBox="0 0 160 531" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>start_right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-36.9725676%" y1="39.7752386%" x2="100%" y2="96.3648834%" id="linearGradient-1">
+            <stop stop-color="#00F1D9" offset="0%"></stop>
+            <stop stop-color="#00D4F6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="13.8923805%" y1="38.9735931%" x2="70.7580508%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#00F1D9" offset="0%"></stop>
+            <stop stop-color="#00D4F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="OZ-desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.8" opacity="0.8">
+        <g id="Group-20" transform="translate(122.000000, 0.000000)" fill="url(#linearGradient-1)">
+            <path d="M0.0002848211,23.8378922 L0.000915383309,44.1540158 C0.00101823262,47.4677243 2.68739311,50.1539324 6.00110161,50.1538296 C6.53204349,50.1538131 7.0606344,50.0833232 7.57302668,49.9442066 L54,37.3390914 L54,0 L8.85606221,12.2567658 C3.62867595,13.6760227 0.000116702373,18.4212644 0.0002848211,23.8378922 Z" id="Fill-1-Copy-21"></path>
+        </g>
+        <path d="M97,360 L97.0013475,440.5 L159.5,457 L159.5,394.986007 C159.5,384.090506 152.160577,374.562073 141.625987,371.781002 L97,360 Z" id="Fill-1-Copy-21" fill="url(#linearGradient-2)" transform="translate(128.250000, 408.500000) scale(-1, 1) translate(-128.250000, -408.500000) "></path>
+    </g>
+</svg>

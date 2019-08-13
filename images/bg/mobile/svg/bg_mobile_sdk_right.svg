@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="531px" viewBox="0 0 160 531" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>sdk_right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="13.4467874%" y1="30.459682%" x2="86.5532126%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#3677FF" offset="0%"></stop>
+            <stop stop-color="#1ECFF7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="29.2419492%" y1="30.459682%" x2="70.7580508%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#3677FF" offset="0%"></stop>
+            <stop stop-color="#1ECFF7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="OZ-desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-20" transform="translate(115.000000, 0.000000)">
+            <path d="M0.000219234272,21.3242198 L0.000779006645,44.7987959 C0.000858025003,48.1125044 2.68721358,50.7987318 6.00092208,50.7986528 C6.52824888,50.7986402 7.05327301,50.7291106 7.56242534,50.5918609 L45,40.5 L45,0 L8.87692657,9.73751737 C3.63923609,11.1494156 8.98785486e-05,15.899567 0.000219234272,21.3242198 Z" id="Fill-1-Copy-21" fill-opacity="0.8" fill="url(#linearGradient-1)" opacity="0.8"></path>
+            <path d="M12.0257356,43.225401 L12.068033,58.2947084 C12.0866352,64.9220993 17.4742771,70.2795811 24.101668,70.2609789 C25.1668531,70.2579891 26.2268984,70.1131874 27.253862,69.8303906 L45,64.9436053 L44.8885902,25 L20.839812,31.6223544 C15.6211032,33.0594395 12.0105422,37.8124624 12.0257356,43.225401 Z" id="Fill-1-Copy-27" fill-opacity="0.5" fill="#F8F8FA"></path>
+        </g>
+        <path d="M97,360 L97.0013475,440.5 L159.5,457 L159.5,394.986007 C159.5,384.090506 152.160577,374.562073 141.625987,371.781002 L97,360 Z" id="Fill-1-Copy-21" fill-opacity="0.8" fill="url(#linearGradient-2)" opacity="0.8" transform="translate(128.250000, 408.500000) scale(-1, 1) translate(-128.250000, -408.500000) "></path>
+    </g>
+</svg>

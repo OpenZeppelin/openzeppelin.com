@@ -24,6 +24,34 @@ layout: default
 		z-index: 0;
 	}
 
+	.page-landing .l-hero .section__bg-landing-mobile {
+		display: block;
+	}
+
+	.page-landing .hero .section__bg--left-mobile {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		background-repeat: no-repeat;
+		left: 0;
+		top: 0;
+		background-size: contain;
+		width: 50%;
+		background-position: top left;
+	}
+
+	.page-landing .hero .section__bg--right-mobile {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		background-repeat: no-repeat;
+		right: 0;
+		top: 0;
+		background-size: contain;
+		width: 50%;
+		background-position: top right;
+	}
+
 	.l-projects .sub-heading {
 		margin-bottom: 60px;
 	}
@@ -194,10 +222,6 @@ layout: default
 			height: calc(60vh - 70px);
 		}
 
-		.page-landing .l-hero .section__bg-landing {
-			display: block;
-		}
-
 		.l-cta .building-grid .box {
 			max-width: 70%;
 		}
@@ -219,6 +243,14 @@ layout: default
 	@media (min-width: 980px) {
 		.page-landing .hero .heading {
 			font-size: 3rem;
+		}
+
+		.page-landing .l-hero .section__bg-landing {
+			display: block;
+		}
+
+		.page-landing .l-hero .section__bg-landing-mobile {
+			display: none;
 		}
 
 		.l-cta .building-grid .row {
@@ -368,6 +400,10 @@ layout: default
 			style="background-image:url('/images/bg/hero/half/svg/bg_home_left.svg')"></div>
 		<div class="section__bg-landing section__bg--right"
 			style="background-image:url('/images/bg/hero/half/svg/bg_home_right.svg')"></div>
+		<div class="section__bg-landing-mobile section__bg--left-mobile"
+			style="background-image:url('/images/bg/hero/mobile/svg/bg_mobile_home_left.svg')"></div>
+		<div class="section__bg-landing-mobile section__bg--right-mobile"
+			style="background-image:url('/images/bg/hero/mobile/svg/bg_mobile_home_right.svg')"></div>
 	</section>
 	<section class="section l-projects section--white">
 		<div class="container container--lg">

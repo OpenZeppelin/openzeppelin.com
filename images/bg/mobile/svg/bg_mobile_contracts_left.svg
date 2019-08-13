@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="531px" viewBox="0 0 160 531" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>contracts_left</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="36.5525513%" x2="0%" y2="63.4474487%" id="linearGradient-1">
+            <stop stop-color="#A134D1" offset="0%"></stop>
+            <stop stop-color="#6746D6" offset="100%"></stop>
+        </linearGradient>
+        <path d="M25.080279,16.5705433 L8.40501584,79.8071732 C7.72907199,82.3705157 9.25911092,84.9964761 11.8224534,85.67242 C12.2229334,85.7780251 12.6353972,85.8313536 13.0495669,85.8310767 L114.866867,85.7630102 C119.223611,85.7600976 123.032133,82.8237035 124.143091,78.6109843 L137.345011,28.549672 C138.696988,23.4230106 135.637002,18.1710361 130.510341,16.8190585 C129.70933,16.60782 128.884347,16.5011484 128.055951,16.5017021 L25.080279,16.5705433 Z" id="path-2"></path>
+        <filter x="-8.9%" y="-26.9%" width="117.9%" height="153.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="100%" y1="43.9736075%" x2="0%" y2="50%" id="linearGradient-5">
+            <stop stop-color="#F8F8FA" offset="0%"></stop>
+            <stop stop-color="#F8F8FA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="92.8634397%" y1="100%" x2="0%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#6746D6" offset="0%"></stop>
+            <stop stop-color="#A134D1" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="43.3837046%" x2="0%" y2="56.6162954%" id="linearGradient-7">
+            <stop stop-color="#A134D1" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#6746D6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="OZ-desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-22" transform="translate(-85.000000, 314.000000)">
+            <g id="Fill-1-Copy-13" transform="translate(74.000000, 51.000000) scale(1, -1) translate(-74.000000, -51.000000) ">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="url(#linearGradient-1)" transform="translate(73.669938, 51.164306) scale(-1, 1) rotate(-15.000000) translate(-73.669938, -51.164306) " xlink:href="#path-2"></use>
+                <path d="M55.387249,30.6880222 L46.4394852,64.4871765 L157.790171,64.4127287 C164.320088,64.4083629 170.029696,60.0106373 171.700935,53.6982057 L180.649453,19.8987875 L69.2980819,19.9732357 C62.7680638,19.9776016 57.0583945,24.375461 55.387249,30.6880222 Z" fill="#241068" style="mix-blend-mode: multiply;" opacity="0.2" filter="url(#filter-4)" mask="url(#mask-3)" transform="translate(113.544469, 42.192982) scale(-1, 1) rotate(-15.000000) translate(-113.544469, -42.192982) "></path>
+            </g>
+            <path d="M192.972188,64.5818823 L192.861018,109 L84.7420703,80.3747216 C78.4133217,78.6991393 74.0113542,72.9653133 74.0276363,66.4185301 L74.1381067,22 L182.257755,50.6254638 C188.586585,52.3010677 192.988574,58.0350149 192.972188,64.5818823 Z" id="Fill-1-Copy-9" fill-opacity="0.5" fill="url(#linearGradient-5)" transform="translate(133.500000, 65.500000) scale(-1, 1) translate(-133.500000, -65.500000) "></path>
+        </g>
+        <path d="M-43.2198313,29.659728 L-50.5591051,57.8945337 L32.7936805,57.8945337 C38.2582321,57.8945337 43.0326926,54.2025993 44.4076262,48.9138489 L51.7480226,20.6786501 L-31.6057834,20.6786501 C-37.0704861,20.6786501 -41.8450387,24.3707847 -43.2198313,29.659728 Z" id="Fill-1-Copy-18" stroke="url(#linearGradient-7)" fill-opacity="0.5" fill="url(#linearGradient-6)" opacity="0.5" transform="translate(0.594459, 39.286592) rotate(-15.000000) translate(-0.594459, -39.286592) "></path>
+    </g>
+</svg>

@@ -367,6 +367,30 @@ a {
   padding: 60px 0;
 }
 
+.section__bg, .section__bg-final {
+	display: none;
+}
+
+.section__bg-left-mobile, .section__bg-right-mobile {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	top: 0;
+	background-size: contain;
+	width: 50%;
+}
+
+.section__bg-left-mobile {
+	left: 0;
+	background-position: top left;
+}
+
+.section__bg-right-mobile {
+	right: 0;
+	background-position: top right;
+}
+
 /** Sections that contain fakeBgs at the end **/
 .section.section--cutted {
 	padding-bottom: 0;
@@ -908,6 +932,41 @@ body .overlay--active {
 	.hero .wrapper {
 		margin-bottom: 0;
 	}
+
+	.section__bg-left-mobile, .section__bg-right-mobile {
+		display: none;
+	}
+
+	.section__bg {
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 0;
+		padding: 0;
+		padding-bottom: calc(100% * 3 / 4);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top center;
+		right: 0;
+		left: 0;
+		z-index: -2;
+		background-position: bottom;
+		bottom: 70px;
+	}
+
+	.section__bg-final {
+		display: block;
+		height: 100%;
+		bottom: -1px;
+		width: 100%;
+		left: 0;
+		right: 0;
+		position: absolute;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: bottom;
+		z-index: -1;
+	}
 }
 
 /** Desktop  **/
@@ -1226,35 +1285,6 @@ html {
 
 .page-product .c-hero .description {
 	max-width: 770px;
-}
-
-.section__bg {
-	position: absolute;
-	width: 100%;
-	height: 0;
-	padding: 0;
-	padding-bottom: calc(100% * 3 / 4);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top center;
-	right: 0;
-	left: 0;
-	z-index: -2;
-	background-position: bottom;
-	bottom: 70px;
-}
-
-.section__bg-final {
-	height: 100%;
-	bottom: -1px;
-	width: 100%;
-	left: 0;
-	right: 0;
-	position: absolute;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: bottom;
-	z-index: -1;
 }
 
 .page-product .term-container {

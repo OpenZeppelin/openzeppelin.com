@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="531px" viewBox="0 0 160 531" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>contracts_right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="70.7580508%" y1="0%" x2="29.2419492%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A134D1" offset="0%"></stop>
+            <stop stop-color="#6746D6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="18.9921875%" x2="0%" y2="81.0078125%" id="linearGradient-2">
+            <stop stop-color="#A134D1" offset="0%"></stop>
+            <stop stop-color="#6746D6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="OZ-desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M97,360 L97.0013475,440.5 L159.5,457 L159.5,394.986007 C159.5,384.090506 152.160577,374.562073 141.625987,371.781002 L97,360 Z" id="Fill-1-Copy-21" fill-opacity="0.5" fill="url(#linearGradient-1)" opacity="0.5" transform="translate(128.250000, 408.500000) scale(-1, 1) translate(-128.250000, -408.500000) "></path>
+        <path d="M135.000259,33.118926 L135.000939,57.1303507 C135.001033,60.4440592 137.6874,63.1302746 141.001109,63.1301808 C141.537887,63.1301656 142.072236,63.0581192 142.58985,62.9159703 L206.177824,45.4532404 C211.388459,44.0222792 215,39.2852132 215,33.8816615 L215,9.86988034 C215,6.55617184 212.313708,3.86988034 209,3.86988034 C208.463165,3.86988034 207.928758,3.94192692 207.411088,4.0840909 L143.822435,21.5470075 C138.611678,22.978002 135.000106,27.7152482 135.000259,33.118926 Z" id="Fill-1-Copy-10" fill="url(#linearGradient-2)" opacity="0.6"></path>
+    </g>
+</svg>
