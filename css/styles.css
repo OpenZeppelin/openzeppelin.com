@@ -1514,7 +1514,7 @@ section .heading + .grid-logos {
 	}
 }
 
-@media (min-width: 800px) and (max-width: 1024px) {
+@media (min-width: 980px) and (max-width: 1080px) {
 	.p-products-grid .p-product-card {
 		margin-bottom: 20px;
 	}
