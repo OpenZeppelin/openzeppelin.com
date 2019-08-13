@@ -2,6 +2,10 @@
 layout: default
 ---
 <style type="text/css">
+	.hero .wrapper {
+		margin-bottom: 0;
+	}
+
 	.page-landing .l-hero {
 		display: flex;
 		flex-direction: column;
@@ -11,45 +15,9 @@ layout: default
 		min-height: 290px;
 	}
 
-	.page-landing .l-hero .container {
-		height: calc(100vh - 70px);
-	}
-
-	.page-landing .l-hero .container h1.heading {
-		font-size: 2.5rem;
-	}
-
 	.page-landing .l-hero .section__bg-landing {
 		display: none;
 		z-index: 0;
-	}
-
-	.page-landing .l-hero .section__bg-landing-mobile {
-		display: block;
-	}
-
-	.page-landing .hero .section__bg--left-mobile {
-		position: absolute;
-		height: 100%;
-		width: 100%;
-		background-repeat: no-repeat;
-		left: 0;
-		top: 0;
-		background-size: contain;
-		width: 50%;
-		background-position: top left;
-	}
-
-	.page-landing .hero .section__bg--right-mobile {
-		position: absolute;
-		height: 100%;
-		width: 100%;
-		background-repeat: no-repeat;
-		right: 0;
-		top: 0;
-		background-size: contain;
-		width: 50%;
-		background-position: top right;
 	}
 
 	.l-projects .sub-heading {
@@ -61,7 +29,6 @@ layout: default
 	}
 
 	.l-projects .container {
-		padding-top: 60px;
 		padding-bottom: 60px;
 	}
 
@@ -219,7 +186,7 @@ layout: default
 		}
 
 		.page-landing .l-hero .container {
-			height: calc(70vh - 70px);
+			height: calc(65vh - 70px);
 		}
 
 		.l-cta .building-grid .box {
@@ -249,8 +216,8 @@ layout: default
 			display: block;
 		}
 
-		.page-landing .l-hero .section__bg-landing-mobile {
-			display: none;
+		.l-projects .container {
+			padding-bottom: 60px;
 		}
 
 		.l-cta .building-grid .row {
@@ -400,10 +367,6 @@ layout: default
 			style="background-image:url('/images/bg/hero/half/svg/bg_home_left.svg')"></div>
 		<div class="section__bg-landing section__bg--right"
 			style="background-image:url('/images/bg/hero/half/svg/bg_home_right.svg')"></div>
-		<div class="section__bg-landing-mobile section__bg--left-mobile"
-			style="background-image:url('/images/bg/hero/mobile/svg/bg_mobile_home_left.svg')"></div>
-		<div class="section__bg-landing-mobile section__bg--right-mobile"
-			style="background-image:url('/images/bg/hero/mobile/svg/bg_mobile_home_right.svg')"></div>
 	</section>
 	<section class="section l-projects section--white">
 		<div class="container container--lg">
