@@ -1,12 +1,12 @@
 ---
 layout: privacy
 title: 'Data Privacy Notice'
-subtitle: 'Last Updated: August 23, 2019'
+subtitle: 'Last Updated: October 18, 2019'
 ---
 
 ## Why are you seeing this notice?
 
-This Data Privacy Notice details important information regarding the collection, use and disclosure of personal information collected on the OpenZeppelin websites located at <https://openzeppelin.com>, <https://docs.openzeppelin.com>, <http://forum.openzeppelin.com> and [https://blog.openzeppelin.com](https://blog.openzeppelin.com/) (the "**Websites**"), and any other applications, tools, products, services, blogs, forums and/or materials (collectively, "**Services**") offered from time to time by OpenZeppelin through the Websites. OpenZeppelin provides this Data Privacy Notice to help you understand how your personal information is used by us and your choices regarding our use of it. By using the Websites, you agree that we can collect, use, disclose, and process your information as described in this Data Privacy Notice. This Data Privacy Notice only applies to the OpenZeppelin Websites, and not to any other websites, products or services you may be able to access or link to via the Websites. We encourage you to read the privacy policies of any other websites you visit before providing your information to them.
+This Data Privacy Notice details important information regarding the collection, use and disclosure of personal information collected on the OpenZeppelin websites located at <https://openzeppelin.com>, <https://docs.openzeppelin.com>, <http://forum.openzeppelin.com> and [https://blog.openzeppelin.com](https://blog.openzeppelin.com/) (the "**Websites**"), and any other applications, tools, products, services, blogs, forums and/or materials (collectively, "**Services**") offered from time to time by OpenZeppelin. OpenZeppelin provides this Data Privacy Notice to help you understand how your personal information is used by us and your choices regarding our use of it. By using the Websites or the Services, you agree that we can collect, use, disclose, and process your information as described in this Data Privacy Notice. This Data Privacy Notice only applies to the OpenZeppelin Websites and Services, and not to any other websites, products or services you may be able to access or link to via the Websites. We encourage you to read the privacy policies of any other websites you visit before providing your information to them.
 
 While our values will not shift, the Websites will evolve over time, and this Data Privacy Notice will change to reflect that evolution. If we make changes, we will notify you by revising the date at the top of this Data Privacy Notice. In some cases, if we make significant changes, we may give you additional notice by adding a statement to our homepage. We encourage you to review this Data Privacy Notice periodically to stay informed about our practices.
 
@@ -40,6 +40,8 @@ The Personal Data collected about you will help us to provide you with a better 
 We will collect and process Personal Data about you from a number of sources, including:
 
 **Personal Data you give us.** This is information about you that you give us by filling in forms on the Websites, or by corresponding with us by phone, e-mail, social media, forum, blog or otherwise. The information you give us may include your name, address, e-mail address and phone number, financial and credit card information, personal description, personal documentation and photographs or other information you choose to share with us.
+
+**Personal Data you agree we may collect.** You may agree to give us information relating to your use of the Services, which may include technical information like frequency of use of subcommands or other features utilized within the Services.
 
 **Personal Data we collect about you.** With regard to each of your visits to our Websites we will automatically collect the following information:
 
@@ -76,6 +78,7 @@ For our **legitimate interests** or those of a third party:
 -   to comply with an applicable legal or regulatory obligation (other than one laid down by EU or European Economic Area ("**EEA**") member state law) to which we or the relevant third party is subject for the reasons above);
 -   to provide you with information about other products and services we offer that are similar to those that you have already purchased or enquired about;
 -   to improve our Websites and to ensure that content from our Websites is presented in the most effective manner for you and for your computer;
+-   to improve our Services for users;
 -   to administer our Websites and for internal operations, including troubleshooting, data analysis, testing, research, statistical and survey purposes;
 -   to allow you to participate in interactive features of our products and services, when you choose to do so;
 -   as part of our efforts to keep our Websites safe and secure;
