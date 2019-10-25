@@ -3,70 +3,70 @@ layout: default
 ---
 
 <style>
+.hero .wrapper {
+	margin-bottom: 0px;
+}
+
+.page-about-us .section-hero-about-us.hero .container {
+	height: calc(100vh - 70px);
+}
+
+.page-about-us .hero .description {
+	max-width: 800px;
+}
+
+.page-about-us .section-team-header {
+	text-align: left;
+}
+
+section.hero {
+	min-height: 320px;
+}
+
+.page-about-us .section-contact {
+	height: 300px;
+}
+
+.page-about-us .hero h1.heading {
+	max-width: 400px;
+	font-size: 2.5rem;
+}
+
+.page-about-us .section-clients-partners h2.heading {
+	font-size: 1.65rem;
+}
+
+@media (min-width: 980px) {
 	.hero .wrapper {
-		margin-bottom: 0px;
+		margin-bottom: 0;
 	}
 
 	.page-about-us .section-hero-about-us.hero .container {
-		height: calc(100vh - 70px);
+		height: calc(70vh - 70px);
 	}
 
-	.page-about-us .hero .description {
-		max-width: 800px;
-	}
-
-	.page-about-us .section-team-header {
-		text-align: left;
-	}
-
-	section.hero {
-		min-height: 320px;
-	}
-
-	.page-about-us .section-contact {
-		height: 300px;
+	.page-about-us .section-clients-partners .description {
+		white-space: nowrap;
 	}
 
 	.page-about-us .hero h1.heading {
-		max-width: 400px;
-		font-size: 2.5rem;
+		font-size: 2.2rem;
+		max-width: 90%;
 	}
+}
 
-	.page-about-us .section-clients-partners h2.heading {
-		font-size: 1.65rem;
+@media (max-height: 600px) {
+	.page-about-us .section-hero-about-us.hero .container {
+		height: calc(100vh - 70px);
 	}
+}
 
-	@media (min-width: 980px) {
-		.hero .wrapper {
-			margin-bottom: 0;
-		}
-
-		.page-about-us .section-hero-about-us.hero .container {
-			height: calc(70vh - 70px);
-		}
-
-		.page-about-us .section-clients-partners .description {
-			white-space: nowrap;
-		}
-
-		.page-about-us .hero h1.heading {
-			font-size: 2.2rem;
-			max-width: 90%;
-		}
+@media (min-width: 550px) and (max-width: 900px) {
+	.page-about-us .section-team-header {
+		text-align: center;
+		margin: 0 auto;
 	}
-
-	@media (max-height: 600px) {
-		.page-about-us .section-hero-about-us.hero .container {
-			height: calc(100vh - 70px);
-		}
-	}
-
-	@media (min-width: 550px) and (max-width: 900px) {
-		.page-about-us .section-team-header {
-			text-align: center;
-			margin: 0 auto;
-		}
-	}
+}
 </style>
 
 <main class="page page-about-us">
