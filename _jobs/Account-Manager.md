@@ -3,7 +3,7 @@ layout: job
 title: 'Account Manager'
 location: 'Global'
 type: 'Full Time'
-team:
+team: 'sales and marketing'
 navigation_weight: 1
 tags:
   - communications
