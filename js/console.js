@@ -107,7 +107,7 @@ function typeThree() {
   setTimeout(function() {
     $('#typed3').typed({
       strings: [
-        '<br>[~] $ truffle console^500</br>> const myToken = await ExampleToken.new();^500</br>> (await myToken.totalSupply()).toString()',
+        '<br>[~] $ truffle console^500</br>> const myToken = await ExampleToken.new()^500</br>> (await myToken.totalSupply()).toString()',
       ],
       typespeed: 800,
       backdelay: 0,
