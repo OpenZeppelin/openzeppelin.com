@@ -27,7 +27,7 @@ slug: ''
   <ul>
     <li><p>You are extremely detail oriented.</p></li>
     <li><p>You are a self-starter that works independently, with minimal supervision.</p></li>
-    <li><p>You possess an advanced english level and great communication skills (oral and written).</p></li>
+    <li><p>You possess an advanced English level and great communication skills (oral and written).</p></li>
     <li><p>You are passionate about the blockchain space and decentralization.</p></li>
     <li><p>You feel comfortable working in a distributed team.</p></li>
     <li><p>You may have prior experience in computer security.</p></li>
