@@ -8,8 +8,8 @@ navigation_weight: 1
 tags:
   - communications
 date: 2018-02-25 19:07:50 +0000
-sub_heading: ' '
-description: 'We proudly build the most widely used open source infrastructure tools: the OpenZeppelin smart contracts library powers 3000 public projects and has over 6500 Github stars, while the ZeppelinOS development toolset is leading the way in upgradeability and secure code reuse.'
+sub_heading: ''
+description: ''
 slug: ''
 ---
 
