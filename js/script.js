@@ -7,6 +7,9 @@
         var $el = $(this).find('.sub-nav');
         $el.toggleClass('open');
       });
+      $items.click(function (evt) {
+        evt.preventDefault();
+      });
     })();
   }
 
