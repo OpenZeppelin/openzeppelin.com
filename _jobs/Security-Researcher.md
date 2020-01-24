@@ -34,4 +34,16 @@ slug: ''
     <li><p>You may have experience in blockchain technologies.</p></li>
     <li><p>You may have some knowledge in the Solidity programming language.</p></li>
   </ul>
+  <div class="requirements">
+  <h3 class="job-description-title">Benefits</h3>
+  <ul>
+    <li><p><b>Paid Time Off:</b> Unlimited vacation policy.</p></li>
+    <li><p><b>Medical insurance:</b> Top quality insurance options for you and your family. </p></li>
+    <li><p><b>Team Events:</b> Quarterly Company retreats in different locations around the world. So far we have held them in Uruguay, Argentina, Germany and the Caribbean.</p></li>
+    <li><p><b>Social events:</b> Team dinners, game night, online games as well as onsite/remote donut meetings.</p></li>
+    <li><p><b>Wellness activities:</b> monthly allowance for different wellness activities (for example: gym, yoga, etc.)</p></li>
+    <li><p><b>Meals:</b> Free lunch in our Buenos Aires office + possibility to expense it for remotes.</p></li>
+    <li><p><b>Coworking:</b> Unlimited access to a coworking of your choice.</p></li>
+    <li><p><b>Training:</b> Technical training, language lessons in any language of your choice.</p></li>
+  </ul>
 </div>
