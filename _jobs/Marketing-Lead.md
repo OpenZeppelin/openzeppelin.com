@@ -47,8 +47,6 @@ slug: ''
     <li><p><b>Ability to manage a team of 2 people</b> including a technical community manager and a designer.</p></li>
     <li><p><b>Prior experience working remotely</b>. Strong personal organizational skills and a love for self-time management.</p></li>
   </ul>
-  <br/>
-  <p>It’s not expected that any single candidate would have expertise across all of these areas - we’re looking for candidates that are particularly strong in a few areas, and have some interest and capabilities in others.</p>
 </div>
 <div class="requirements">
   <h3 class="job-description-title">Benefits</h3>
@@ -60,6 +58,6 @@ slug: ''
     <li><p><b>Wellness activities:</b> monthly allowance for different wellness activities (for example: gym, yoga, etc.)</p></li>
     <li><p><b>Meals:</b> Free lunch.</p></li>
     <li><p><b>Coworking:</b> Unlimited access to a coworking of your choice.</p></li>
-    <li><p><b>Training:</b> Technical training, language lessons in any language of your choice.</p></li>
+    <li><p><b>Training:</b> Technical training, lessons in any language of your choice.</p></li>
   </ul>
 </div>
