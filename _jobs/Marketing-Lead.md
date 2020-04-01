@@ -43,7 +43,7 @@ slug: ''
     <li><p><b>A startup mentality with a bias to action</b> and the ability to flex in a fast-paced environment.</p></li>
     <li><p><b>Superb organization and project management skills</b>. Ability to work on and manage multiple complex projects with multiple stakeholders, at once.</p></li>
     <li><p><b>Excellent written and verbal communication skills</b>. Proven ability to communicate complex topics with simplicity and clarity, and to communicate powerful stories to drive demand. Proven ability to create, edit and promote written and visual content.</p></li>
-    <li><p><b>Ability to think critically about complex problems with an analytical mindset</b>,appropriately weigh many factors and reach a definitive conclusion.</p></li>
+    <li><p><b>Ability to think critically about complex problems with an analytical mindset</b>, appropriately weigh many factors and reach a definitive conclusion.</p></li>
     <li><p><b>Ability to manage a team of 2 people</b> including a technical community manager and a designer.</p></li>
     <li><p><b>Prior experience working remotely</b>. Strong personal organizational skills and a love for self-time management.</p></li>
   </ul>
