@@ -40,7 +40,7 @@ slug: ''
   <ul>
     <li><p><b>3+ years of previous experience working on international marketing strategies in top technology or cybersecurity companies</b>. Specific experience with designing, executing, and tracking results of multiple lead generation programs including upsell & cross-sell campaigns, content marketing, email campaigns, and event management.</p></li>
     <li><p><b>Experience working in a technical industry and work environment with a strong B2B component</b>. Experience in the cybersecurity space and understanding of developer audiences and blockchain technology are big pluses.</p></li>
-    <li><p><b>A startup mentality with a bias to action</b> and the ability to flex in a fast-paced environment.</p></li>
+    <li><p><b>A startup mentality with a bias to action</b> and the ability to be flexible in a fast-paced environment.</p></li>
     <li><p><b>Superb organization and project management skills</b>. Ability to work on and manage multiple complex projects with multiple stakeholders, at once.</p></li>
     <li><p><b>Excellent written and verbal communication skills</b>. Proven ability to communicate complex topics with simplicity and clarity, and to communicate powerful stories to drive demand. Proven ability to create, edit and promote written and visual content.</p></li>
     <li><p><b>Ability to think critically about complex problems with an analytical mindset</b>,appropriately weigh many factors and reach a definitive conclusion.</p></li>
