@@ -1342,12 +1342,11 @@ section .heading + .grid-logos {
 
 .page-product .c-what-else .grid > .row {
 	flex-direction: column;
+	justify-content: center;
 }
 
 .page-product .c-what-else .grid > .row .box {
 	max-width: 500px;
-	margin-left: auto;
-	margin-right: auto;
 	height: 320px;
 	min-height: 320px;
 }
