@@ -21,7 +21,7 @@ slug: ''
   <h3 class="job-description-title">Specifically, you will:</h3>
   <ul>
     <li><p>
-      Own relationship with OpenZeppelin client base which includes: increasing adoption of our products and services, responding to inquiries from existing and potential new customers, ensuring retention, and satisfaction.
+      Own relationship with OpenZeppelin client base which includes: responding to inquiries from existing and potential new customers, ensuring retention, and satisfaction.
     </p></li>
     <li><p>
       Establish a trusted relationship with each client and drive continued value of our products and services. Follow up and work to identify and/or develop up-sell opportunities.
@@ -33,11 +33,14 @@ slug: ''
       Work with the Services team to estimate the timeline and pricing for the delivery of security services.
     </p></li>
     <li><p>
-      Work with Product to facilitate onboarding of clients.
+       Meet with prospective clients to understand their business needs and technical requirements. 
     </p></li>
     <li><p>
-      Meet with prospective clients.
+     Negotiate proposals and close deals with new or existing clients.
     </p></li>
+    <li><p>
+      Work with Product to facilitate onboarding of clients.
+      </p></li>
     <li><p>
       Advocate customer needs/issues to Product and Services units.
     </p></li>
@@ -78,7 +81,7 @@ slug: ''
       <b>Prior experience working remotely.</b> Strong personal organizational skills and a love for self-time management.
     </p></li>
     <li><p>
-      <b>Passion for blockchain and decentralized technologies.</b> Desire to contribute to the growth of an open economy.
+      <b>Passion for blockchain and decentralized technologies.</b> Desire to contribute to the growth of an open economy. Interest in cybersecurity is a big plus.
     </p></li>
   </ul>
 </div>
@@ -90,7 +93,7 @@ slug: ''
       Medical insurance: Top quality insurance options for you and your family. 
     </p></li>
     <li><p>
-      Team Events: Quarterly Company retreats in different locations around the world.
+      Team Events: Company retreats in different locations around the world.
     </p></li>
     <li><p>
       In-person and virtual social events.
