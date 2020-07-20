@@ -4,12 +4,10 @@
 }
 
 .p-products-grid .grid .col {
-	box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.32);
 	border-radius: 6px;
 	height: 150px;
 	overflow: hidden;
 	margin-left: 15px;
-	max-weight: 310px;
 	will-change: transform;
 	box-shadow: rgba(0, 0, 0, 0.05) 0px 0.1rem 0.3rem, rgba(0, 0, 0, 0.05) 0px 0.1rem 0.2rem, rgba(0, 0, 0, 0.05) 0px 0.5rem 1.5rem;
 	cursor: pointer;
@@ -17,7 +15,6 @@
 
 .p-product-card {
 	background: #FFFFFF;
-	box-shadow: 0 8px 14px 0 rgba(60, 60, 60, 0.09);
 	border: 1px solid #EDEDED;
 	border-radius: 6px;
 	overflow: hidden;
@@ -63,36 +60,21 @@
 	font-weight: 600;
 }
 
-.p-product-card .p-product-card-content .item {
+.p-product-card-content li {
+	opacity: 0.8;
+	font-size: 1rem;
+	color: #282846;
+	line-height: 1.6;
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 10px;
 }
 
-.p-product-card .p-product-card-content .icon {
-	color: #4E5EE4;
+.p-product-card-content li:before {
+	font-family: "Material Icons";
+	content: "check";
+	color: #4e5ee4;
 	margin-right: 6px;
-	margin-top: 4px;
-}
-
-.p-product-card .p-product-card-content .icon>.material-icons {
-	font-size: 15px;
-}
-
-.p-product-card .p-product-card-content .item .text {
-	opacity: 0.8;
-	font-size: 0.94rem;
-	color: #282846;
-	line-height: 1.6;
-
-}
-
-.p-product-card .p-product-card-content .item:first-child {
-	flex: 0;
-}
-
-.p-product-card .p-product-card-content .item:last-child {
-	flex: 1;
 }
 
 .p-product-card .p-product-card-footer {
@@ -132,39 +114,11 @@
 				<p class="description">
 					A library of modular, reusable, secure smart contracts for the Ethereum network, written in Solidity.
 				</p>
-				<ul class="item-list">
-					<li class="item">
-						<span class="icon">
-							<i class="material-icons">check</i>
-						</span>
-						<span class="text">
-							Leverage standard, tested, and community-reviewed contracts.
-						</span>
-					</li>
-					<li class="item">
-						<span class="icon">
-							<i class="material-icons">check</i>
-						</span>
-						<span class="text">
-							Most popular library in the industry.
-						</span>
-					</li>
-					<li class="item">
-						<span class="icon">
-							<i class="material-icons">check</i>
-						</span>
-						<span class="text">
-							Learn from best practices adopted by the ecosystem.
-						</span>
-					</li>
-					<li class="item">
-						<span class="icon">
-							<i class="material-icons">check</i>
-						</span>
-						<span class="text">
-							Reduce your attack surface by reusing audited code.
-						</span>
-					</li>
+				<ul>
+					<li>Leverage standard, tested, and community-reviewed contracts.</li>
+					<li>Most popular library in the industry.</li>
+					<li>Learn from best practices adopted by the ecosystem.</li>
+					<li>Reduce your attack surface by reusing audited code.</li>
 				</ul>
 			</div>
 
@@ -183,46 +137,11 @@
 					A suite of tools to help you develop, test, upgrade, and deploy smart contracts.
 				</p>
 				<ul class="item-list">
-					<li class="item">
-						<span class="icon">
-							<i class="material-icons">check</i>
-						</span>
-						<span class="text">
-							Interactive commands to accelerate local development.
-						</span>
-					</li>
-					<li class="item">
-						<span class="icon">
-							<i class="material-icons">check</i>
-						</span>
-						<span class="text">
-							Easy bug-fixing and quick iterations via smart contract upgrades.
-						</span>
-					</li>
-					<li class="item">
-						<span class="icon">
-							<i class="material-icons">check</i>
-						</span>
-						<span class="text">
-							Seamless integration with OpenZeppelin Contracts.
-						</span>
-					</li>
-					<li class="item">
-						<span class="icon">
-							<i class="material-icons">check</i>
-						</span>
-						<span class="text">
-							Multi-network support.
-						</span>
-					</li>
-					<li class="item">
-						<span class="icon">
-							<i class="material-icons">check</i>
-						</span>
-						<span class="text">
-							Compatible with Truffle.
-						</span>
-					</li>
+					<li>Interactive commands to accelerate local development.</li>
+					<li>Easy bug-fixing and quick iterations via smart contract upgrades.</li>
+					<li>Seamless integration with OpenZeppelin Contracts.</li>
+					<li>Multi-network support.</li>
+					<li>Compatible with Truffle.</li>
 				</ul>
 			</div>
 
