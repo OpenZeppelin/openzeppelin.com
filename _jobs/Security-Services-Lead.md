@@ -102,7 +102,7 @@ slug: ''
 </div>
 
 <div class="requirements">
-  <h3 class="job-description-title">Nice to have:</h3>
+  <h3 class="job-description-title">Nice to have</h3>
   <ul>
     <li><p>
       Fintech industry experience.
