@@ -180,15 +180,6 @@ layout: default
 		font-size: 1rem;
 		line-height: 1.8;
 		font-weight: 400;
-
-	}
-
-	.page-security .s-form#security-audit-form {
-		display: none;
-	}
-
-	.page-security .s-form.active#security-audit-form {
-		display: block;
 	}
 
 	.page-security .checklist {
@@ -204,22 +195,9 @@ layout: default
 	.page-security .audit-reports .audit-grid {
 		padding: 1.2rem;
 	}
-
-	.request-button {
-		padding-top: 2rem;
-		justify-items: center;
-	}
-
-	.page-security .projects-grid .col {
-		max-width: 500px;
-	}
-
-	.page-security .sa-projects .heading {
-		max-width: 260px;
-	}
 	
 	.request-button {
-		padding-top: 60px;
+		padding-top: 2rem;
 	}
 
 	@media (min-width: 500px) {
@@ -229,12 +207,6 @@ layout: default
 
 		.audit-reports .audit-grid .row {
 		padding: 10px 0;
-		}
-	}
-
-	@media (min-width: 600px) {
-		.page-security .sa-projects .heading {
-			max-width: 100%;
 		}
 	}
 
@@ -404,7 +376,7 @@ layout: default
 		{% include partners.html %}
 	</section>
 
-	<section class="section section--gray sa-projects">
+	<section class="section section--gray">
 		<div class="container">
 			<div class="section-header">
 				<h2 class="heading">Request a security audit</h2>
@@ -415,8 +387,6 @@ layout: default
 					<a href="https://openzeppelin.com/request/" class="btn cta">Request an Audit</a>
 				</div>
 			</div>
-			
-		
 		</div>
 	</section>
 </main>
