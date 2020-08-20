@@ -1,6 +1,7 @@
 ---
 layout: job
 title: 'Security Services Lead'
+excerpt: 'As the Leader of Security Services, you will leverage your experience to continue to build and lead a global team of security researchers focused on blockchain systems.'
 location: 'Global'
 type: 'Full Time'
 team: 'Research'

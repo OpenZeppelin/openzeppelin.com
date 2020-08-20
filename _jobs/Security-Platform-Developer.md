@@ -1,6 +1,7 @@
 ---
 layout: job
 title: 'Security Platform Developer'
+excerpt: 'As a Security platform developer, you will join a team building a new security services platform for operational security of smart contract systems.'
 location: 'Global'
 type: 'Full Time'
 team: 'Product'
