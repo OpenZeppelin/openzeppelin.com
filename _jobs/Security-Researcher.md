@@ -29,31 +29,37 @@ slug: ''
 </div>
 
 <div class="requirements">
-  <h3 class="job-description-title">Who you are</h3>
+  <h3 class="job-description-title">You have</h3>
   <ul>
     <li><p>
-      You are extremely detail oriented.
+      Above-average attention to detail skills. 
     </p></li>
     <li><p>
-      You are a self-starter that works independently, with minimal supervision.
+      The ability to work independently, with minimal supervision.
     </p></li>
     <li><p>
-      You possess an advanced english level and great communication skills (oral and written).
+      An advanced english level and great communication skills (oral and written).
     </p></li>
     <li><p>
-      You are passionate about the blockchain space and decentralization.
+      Passion about the blockchain space and decentralization.
     </p></li>
     <li><p>
-      You feel comfortable working in a distributed team.
+      The abilities needed to work collaboratively in a distributed team.
+    </p></li>
+  </ul>
+</div>
+
+<div class="requirements">
+  <h3 class="job-description-title">Nice to have</h3>
+  <ul>
+    <li><p>
+      Prior experience in computer security.
     </p></li>
     <li><p>
-      You may have prior experience in computer security.
+      Experience in blockchain technologies.
     </p></li>
     <li><p>
-      You may have experience in blockchain technologies.
-    </p></li>
-    <li><p>
-      You may have some knowledge in the Solidity programming language.
+      Knowledge in Solidity programming language.
     </p></li>
   </ul>
 </div>
