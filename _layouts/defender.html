@@ -32,19 +32,17 @@ layout: default
 	.page-defender .features {
 		background: #F9FAFB;
 		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-		padding: 16rem 0;
+		padding: 10rem 0;
 	}
 
-	.page-defender .features.inverted {
-		background: white;
-		
+	.page-defender .features.inverted { 
+		background: white; 
 	}
 
-	.page-defender .image-app {
-		display: block;
-		background: orange;
-		height: 10rem;
-		width: 10rem;
+	.image-app {
+		width: 36rem;
+		max-width: 100%;
+		height: auto;
 	}
 
 	.pricing {
@@ -61,6 +59,7 @@ layout: default
 		.page-defender .flex { flex-direction: column; }
 		.page-defender .flex div { width: 100%; }
 		.page-defender .features { clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%); }
+		.image-app { margin-top: 2rem; }
 	}
 </style>
 
@@ -110,7 +109,7 @@ layout: default
 					<h2 class="heading">Automate your smart contract administration with a clean UI</h2>
 					<p>Easily manage your smart contract administration including access controls, multi-sig management (it works with Gnosis Safe or others), upgrades, pausing, whitelisting, and more.</p>
 				</div>
-				<div class="image-app"></div>
+				<img class="image-app" alt="Defender inferface for approving an upgrade proposal" src="../images/defender/admin.png" />
 			</div>
 		</div>
 		
@@ -125,7 +124,7 @@ layout: default
 					<h2 class="heading">Create automated scripts to call your smart contracts</h2>
 					<p>A secure serverless environment to create and run scripts that call your smart contracts and other web services, leveraging Defender Relayers for reliable transaction delivery.</p>
 				</div>
-				<div class="image-app"></div>
+				<img class="image-app" alt="Defender inferface for creating a Relayer" src="../images/defender/relay_ui.png" />
 			</div>
 		</div>
 
@@ -140,7 +139,7 @@ layout: default
 					<h2 class="heading">Create automated scripts to call your smart contracts</h2>
 					<p>A secure serverless environment to create and run scripts that call your smart contracts and other web services, leveraging Defender Relayers for reliable transaction delivery.</p>
 				</div>
-				<div class="image-app"></div>
+				<img class="image-app" alt="Defender inferface for reviewing an autotask run" src="../images/defender/autotasks.png" />
 			</div>
 		</div>
 
@@ -155,7 +154,7 @@ layout: default
 					<h2 class="heading">Quickly implement security best practices </h2>
 					<p>A knowledgebase of security best practices across development, testing, monitoring and operations along with a methodology to integrate into your DevOps processes.</p>
 				</div>
-				<div class="image-app"></div>
+				<img class="image-app" alt="Defender inferface for navigating the knowledgebase of security best practices" src="../images/defender/advisor.png" />
 			</div>
 		</div>
 
