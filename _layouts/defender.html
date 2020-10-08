@@ -8,10 +8,15 @@ layout: default
 		height: 75vh;
 	}
 
-	.defender-aliance { padding: 10rem 0; }
-	.defender-aliance .grid-logos{
-		height: 10rem;
-		background-color: gray;
+	.defender-aliance { padding: 8rem 0; }
+	.defender-aliance h6 {
+		font-size: 12px;
+		font-weight: bold;
+		letter-spacing: 0em;
+		text-align: center;
+		text-transform: uppercase;
+		color: #818998;
+		margin-bottom: 3rem;
 	}
 
 	/* Features section */
@@ -109,11 +114,8 @@ layout: default
 	<section class="defender-aliance">
 
 		<div class="container">
-			<div class="heading">
-				Trusted by top teams in the space
-			</div>
-			<div class="grid-logos">
-			</div>
+			<h6 >Trusted by top teams in the space</h6>
+			{% include defender-alliance.html %}
 		</div>
 
 	</section>
