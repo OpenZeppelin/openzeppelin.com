@@ -1,0 +1,111 @@
+---
+layout: default
+---
+<style type="text/css">
+	.page-defender .hero {
+		background: #F9FAFB;
+	}
+
+	.defender-aliance {
+		padding: 10rem 0;
+		background-color: coral;
+	}
+	.defender-aliance .grid-logos{
+		height: 10rem;
+		background-color: blue;
+	}
+
+	.page-defender .features {
+		background: pink;
+		height: 10rem;
+	}
+	.page-defender .features.inverted {
+		background: green;
+	}
+	.page-defender .pricing {
+		padding: 10rem 0;
+		background-color: tomato;
+	}
+
+	.page-defender .testimonials {
+		padding: 10rem 0;
+		background-color: violet;
+	}
+</style>
+
+<main class="page page-defender">
+	
+	<nav class="p-nav p-nav--white" id="new-sub-nav">
+		<div class="container">
+			<div class="p-logo">
+				<!-- Add defender logo-->
+			</div>
+			{% include defender-menu.html %}
+		</div>
+	</nav>
+	<section class="section hero">
+
+		<div class="container">
+			<h1 class="heading">Ship faster with the security of OpenZeppelin Defender</h1>
+			<p class="description">Automate your Ethereum operations to quickly develop with security best practices.</p>
+			<a href="#" class="btn cta">Sign Up for Free</a>
+		</div>
+		
+	</section>
+
+	<section class="defender-aliance">
+
+		<div class="container">
+			<div class="heading">
+				Projects building with OpenZeppelin Contracts
+			</div>
+			<div class="grid-logos">
+			</div>
+		</div>
+
+	</section>
+
+	<section>
+		
+		<div class="features">
+			<div class="container">
+				<h2 class="heading">Admin</h2>
+			</div>
+		</div>
+
+		<div class="features inverted">
+			<div class="container">
+				<h2 class="heading">Relay</h2>
+			</div>
+		</div>
+
+		<div class="features">
+			<div class="container">
+				<h2 class="heading">Autotasks</h2>
+			</div>
+		</div>
+
+		<div class="features inverted">
+			<div class="container">
+				<h2 class="heading">Advisor</h2>
+			</div>
+		</div>
+
+	</section>
+	
+	<section class="testimonials">
+		<div class="container">
+			<h2 class="heading">Testimonials</h2>
+		</div>
+	</section>
+
+	<section class="pricing">
+		<div class="container">
+			<h2 class="heading">Get early access</h2>
+		</div>
+	</section>
+</main>
+
+<script src="/js/typed.min.js"></script>
+<script src="/js/fixedSubMenu.js"></script>
+<script src="/js/product-page.js"></script>
