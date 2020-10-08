@@ -23,19 +23,17 @@ layout: default
 		align-items: center;
 		align-content: center;
 	}
-	.page-defender .flex div {
-		width: 48%;
-	}
+
+	.page-defender .flex div { width: 29rem; }
 
 	.page-defender .features {
 		background: #F9FAFB;
 		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-		padding: 10rem 0;
+		padding: 10rem 1rem;
 	}
 
-	.page-defender .features.inverted { 
-		background: white; 
-	}
+	.page-defender .features.inverted { background: white; }
+	.description.max-width { max-width: 25rem;}
 
 	.problem,
 	.solution {
@@ -67,6 +65,7 @@ layout: default
 		width: 32rem;
 		max-width: 100%;
 		height: auto;
+		margin-top: 1rem;
 	}
 
 	.pricing {
@@ -83,7 +82,6 @@ layout: default
 		.page-defender .flex { flex-direction: column; }
 		.page-defender .flex div { width: 100%; }
 		.page-defender .features { clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%); }
-		.image-app { margin-top: 2rem; }
 	}
 </style>
 
@@ -127,7 +125,7 @@ layout: default
 			<div class="container flex">
 				<div>
 					<p class="problem">Problem</p>
-					<p class="description">Administration mistakes on protocols and applications put user funds at risk</p>
+					<p class="description max-width">Administration mistakes on protocols and applications put user funds at risk</p>
 
 					<p class="solution">Solution</p>
 					<h2 class="heading">Automate your smart contract administration with a clean UI</h2>
@@ -142,7 +140,7 @@ layout: default
 			<div class="container flex">
 				<div>
 					<p class="problem">Problem</p>
-					<p class="description">Teams are using third-party or homegrown transaction infrastructure that is unreliable or insecure</p>
+					<p class="description max-width">Teams are using third-party or homegrown transaction infrastructure that is unreliable or insecure</p>
 
 					<p class="solution">Solution</p>
 					<h2 class="heading">Build with private and secure transaction infrastructure </h2>
@@ -157,7 +155,7 @@ layout: default
 			<div class="container flex">
 				<div>
 					<p class="problem">Problem</p>
-					<p class="description">Homegrown BOTs and cron jobs are tedious to maintain and a target for hackers</p>
+					<p class="description max-width">Homegrown BOTs and cron jobs are tedious to maintain and a target for hackers</p>
 
 					<p class="solution">Solution</p>
 					<h2 class="heading">Create automated scripts to call your smart contracts</h2>
@@ -172,7 +170,7 @@ layout: default
 			<div class="container flex">
 				<div>
 					<p class="problem">Problem</p>
-					<p class="description">Protocol complexity is increasing leading to new vulnerabilities that teams are not aware of</p>
+					<p class="description max-width">Protocol complexity is increasing leading to new vulnerabilities that teams are not aware of</p>
 
 					<p class="solution">Solution</p>
 					<h2 class="heading">Quickly implement security best practices</h2>
