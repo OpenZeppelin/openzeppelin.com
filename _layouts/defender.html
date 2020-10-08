@@ -4,6 +4,7 @@ layout: default
 <style type="text/css">
 	.page-defender .hero {
 		background: #F9FAFB;
+		height: 75vh;
 	}
 
 	.defender-aliance {
@@ -15,13 +16,44 @@ layout: default
 		background-color: blue;
 	}
 
+	/* Features section */
+	
+	.page-defender .flex {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		align-content: center;
+	}
+	.page-defender .flex div {
+		width: 48%;
+	}
+
 	.page-defender .features {
-		background: pink;
-		height: 10rem;
+		background: #F9FAFB;
+		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+		padding: 16rem 0;
 	}
+
 	.page-defender .features.inverted {
-		background: green;
+		background: white;
+		
 	}
+
+	.page-defender .image-app {
+		display: block;
+		background: orange;
+		height: 10rem;
+		width: 10rem;
+	}
+
+	/*.divider {
+		background: purple;
+		color: white;
+		clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+		padding: 10rem 20%;
+	}*/
+
 	.page-defender .pricing {
 		padding: 10rem 0;
 		background-color: tomato;
@@ -31,14 +63,21 @@ layout: default
 		padding: 10rem 0;
 		background-color: violet;
 	}
+
+	@media (max-width: 768px) {
+		.page-defender .flex { flex-direction: column; }
+		.page-defender .flex div { width: 100%; }
+		.page-defender .features { clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%); }
+	}
 </style>
 
 <main class="page page-defender">
-	
+
 	<nav class="p-nav p-nav--white" id="new-sub-nav">
 		<div class="container">
 			<div class="p-logo">
 				<!-- Add defender logo-->
+				<p>Defender</p>
 			</div>
 			{% include defender-menu.html %}
 		</div>
@@ -66,28 +105,64 @@ layout: default
 	</section>
 
 	<section>
-		
+
+		<!-- Adim -->
 		<div class="features">
-			<div class="container">
-				<h2 class="heading">Admin</h2>
+			<div class="container flex">
+				<div>
+					<p>Problem</p>
+					<p>Administration mistakes on protocols and applications put user funds at risk</p>
+
+					<p>Solution</p>
+					<h2 class="heading">Automate your smart contract administration with a clean UI</h2>
+					<p>Easily manage your smart contract administration including access controls, multi-sig management (it works with Gnosis Safe or others), upgrades, pausing, whitelisting, and more.</p>
+				</div>
+				<div class="image-app"></div>
 			</div>
 		</div>
-
+		<div class="divider"></div>
+		<!-- Relay -->
 		<div class="features inverted">
-			<div class="container">
-				<h2 class="heading">Relay</h2>
+			<div class="container flex">
+				<div>
+					<p>Problem</p>
+					<p>Homegrown BOTs and cron jobs are tedious to maintain and a target for hackers</p>
+
+					<p>Solution</p>
+					<h2 class="heading">Create automated scripts to call your smart contracts</h2>
+					<p>A secure serverless environment to create and run scripts that call your smart contracts and other web services, leveraging Defender Relayers for reliable transaction delivery.</p>
+				</div>
+				<div class="image-app"></div>
 			</div>
 		</div>
 
+		<!-- Autotaks -->
 		<div class="features">
-			<div class="container">
-				<h2 class="heading">Autotasks</h2>
+			<div class="container flex">
+				<div>
+					<p>Problem</p>
+					<p>Create automated scripts to call your smart contracts</p>
+
+					<p>Solution</p>
+					<h2 class="heading">Create automated scripts to call your smart contracts</h2>
+					<p>A secure serverless environment to create and run scripts that call your smart contracts and other web services, leveraging Defender Relayers for reliable transaction delivery.</p>
+				</div>
+				<div class="image-app"></div>
 			</div>
 		</div>
 
+		<!-- Advisor -->
 		<div class="features inverted">
-			<div class="container">
-				<h2 class="heading">Advisor</h2>
+			<div class="container flex">
+				<div>
+					<p>Problem</p>
+					<p>Protocol complexity is increasing leading to new vulnerabilities that teams are not aware of</p>
+
+					<p>Solution</p>
+					<h2 class="heading">Quickly implement security best practices </h2>
+					<p>A knowledgebase of security best practices across development, testing, monitoring and operations along with a methodology to integrate into your DevOps processes.</p>
+				</div>
+				<div class="image-app"></div>
 			</div>
 		</div>
 
