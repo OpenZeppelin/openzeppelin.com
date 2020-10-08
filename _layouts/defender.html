@@ -2,7 +2,7 @@
 layout: default
 ---
 <style type="text/css">
-	
+
 	.page-defender .hero {
 		background: #F9FAFB;
 		height: 75vh;
@@ -36,6 +36,32 @@ layout: default
 	.page-defender .features.inverted { 
 		background: white; 
 	}
+
+	.problem,
+	.solution {
+		font-family: 'silka';
+		font-weight: bold;
+		margin: 1rem 0;
+		line-height: 18px;
+		padding-left: 22px;
+	}
+
+	.problem:before,
+	.solution:before { 
+		content:'';
+		background: '';
+		height: 16px;
+		width: 16px;
+		position: absolute;
+  	margin-left: -22px;
+	}
+
+	.problem { color: #AA0909; }
+	.problem:before { background: url('../images/defender/ic-problem.svg'); }
+
+	.solution { color: #1F9332; margin-top: 3rem; }
+	.solution:before { background: url('../images/defender/ic-solution.svg'); }
+
 
 	.image-app {
 		width: 32rem;
@@ -100,12 +126,12 @@ layout: default
 		<div class="features">
 			<div class="container flex">
 				<div>
-					<p>Problem</p>
-					<p>Administration mistakes on protocols and applications put user funds at risk</p>
+					<p class="problem">Problem</p>
+					<p class="description">Administration mistakes on protocols and applications put user funds at risk</p>
 
-					<p>Solution</p>
+					<p class="solution">Solution</p>
 					<h2 class="heading">Automate your smart contract administration with a clean UI</h2>
-					<p>Easily manage your smart contract administration including access controls, multi-sig management (it works with Gnosis Safe or others), upgrades, pausing, whitelisting, and more.</p>
+					<p class="description">Easily manage your smart contract administration including access controls, multi-sig management (it works with Gnosis Safe or others), upgrades, pausing, whitelisting, and more.</p>
 				</div>
 				<img class="image-app" alt="Defender inferface for approving an upgrade proposal" src="../images/defender/admin.png" />
 			</div>
@@ -115,12 +141,12 @@ layout: default
 		<div class="features inverted">
 			<div class="container flex">
 				<div>
-					<p>Problem</p>
-					<p>Homegrown BOTs and cron jobs are tedious to maintain and a target for hackers</p>
+					<p class="problem">Problem</p>
+					<p class="description">Homegrown BOTs and cron jobs are tedious to maintain and a target for hackers</p>
 
-					<p>Solution</p>
+					<p class="solution">Solution</p>
 					<h2 class="heading">Create automated scripts to call your smart contracts</h2>
-					<p>A secure serverless environment to create and run scripts that call your smart contracts and other web services, leveraging Defender Relayers for reliable transaction delivery.</p>
+					<p class="description">A secure serverless environment to create and run scripts that call your smart contracts and other web services, leveraging Defender Relayers for reliable transaction delivery.</p>
 				</div>
 				<img class="image-app" alt="Defender inferface for creating a Relayer" src="../images/defender/relay_ui.png" />
 			</div>
@@ -130,12 +156,12 @@ layout: default
 		<div class="features">
 			<div class="container flex">
 				<div>
-					<p>Problem</p>
-					<p>Create automated scripts to call your smart contracts</p>
+					<p class="problem">Problem</p>
+					<p class="description">Create automated scripts to call your smart contracts</p>
 
-					<p>Solution</p>
+					<p class="solution">Solution</p>
 					<h2 class="heading">Create automated scripts to call your smart contracts</h2>
-					<p>A secure serverless environment to create and run scripts that call your smart contracts and other web services, leveraging Defender Relayers for reliable transaction delivery.</p>
+					<p class="description">A secure serverless environment to create and run scripts that call your smart contracts and other web services, leveraging Defender Relayers for reliable transaction delivery.</p>
 				</div>
 				<img class="image-app" alt="Defender inferface for reviewing an autotask run" src="../images/defender/autotasks.png" />
 			</div>
@@ -145,12 +171,12 @@ layout: default
 		<div class="features inverted">
 			<div class="container flex">
 				<div>
-					<p>Problem</p>
-					<p>Protocol complexity is increasing leading to new vulnerabilities that teams are not aware of</p>
+					<p class="problem">Problem</p>
+					<p class="description">Protocol complexity is increasing leading to new vulnerabilities that teams are not aware of</p>
 
-					<p>Solution</p>
+					<p class="solution">Solution</p>
 					<h2 class="heading">Quickly implement security best practices </h2>
-					<p>A knowledgebase of security best practices across development, testing, monitoring and operations along with a methodology to integrate into your DevOps processes.</p>
+					<p class="description">A knowledgebase of security best practices across development, testing, monitoring and operations along with a methodology to integrate into your DevOps processes.</p>
 				</div>
 				<img class="image-app" alt="Defender inferface for navigating the knowledgebase of security best practices" src="../images/defender/advisor.png" />
 			</div>
