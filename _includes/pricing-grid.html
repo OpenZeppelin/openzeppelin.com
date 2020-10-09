@@ -15,31 +15,49 @@
 	display: flex;
 	flex-direction: column;
 	padding: 2rem;
-	min-height: 500px;
-	max-width: 20rem;
+	min-height: 35rem;
+	width: 80%;
 	align-self: center;
 }
 
 .pricing-card .pricing-card-content {
 	flex: 1;
-	padding: 30px 0 25px;
 	height: 100%;
 }
 
-.pricing-card .pricing-card-content .description {
-	margin-bottom: 20px;
-	opacity: 0.8;
-	font-size: 0.94rem;
-	color: #282846;
-	line-height: 1.6;
-	font-weight: 600;
+.pricing-card h5 {
+	font-size: 0.9rem;
+	font-weight: bold;
+	text-align: center;
+	color: #818998;
+	padding-top: 1rem;
+}
+
+.pricing-card h3 {
+	font-size: 2.5rem;
+	font-weight: 800;
+	text-align: center;
+	vertical-align: baseline;
+	color: #2C374B;
+	padding: 1.5rem 0 2rem;
+}
+
+.pricing-card h3 .month {
+	font-size: 1.25rem;
+	font-weight: 500;
+	color: #575C66;
+	opacity: .9;
+}
+
+.pricing-card h3 .contact {
+	font-size: 1.75rem;
 }
 
 .pricing-card-content li {
 	opacity: 0.8;
 	font-size: 1rem;
 	color: #282846;
-	line-height: 1.6;
+	line-height: 1.5;
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 10px;
@@ -65,7 +83,8 @@
 	}
 
 	.pricing-card {
-		height: 550px;
+		min-height: 35rem;
+		max-width: 20rem;
 	}
 }
 </style>
@@ -74,14 +93,14 @@
 	<div class="row">
 		<div class="col pricing-card">
 			<div class="pricing-card-content">
-				<p class="description">Testnet</p>
+				<h5>Testnet</h5>
 				<h3>Free</h3>
 				<ul>
 					<li>
-						Full access to all features
+						All popular testnets (including L2, sidechain)
 					</li>
 					<li>
-						All popular testnets (including L2, sidechain)
+						Full access to all features
 					</li>
 					<li>
 						Automatic gas-payment funding
@@ -90,7 +109,7 @@
 						Community support
 					</li>
 					<li>
-						Community support
+						Free forever
 					</li>
 				</ul>
 			</div>
@@ -99,20 +118,23 @@
 
 		<div class="col pricing-card">
 			<div class="pricing-card-content">
-				<p class="description">Mainnet</p>
-				<h3>$500/month</h3>
+				<h5>Mainnet</h5>
+				<h3>$500<span class="month">/month</span></h3>
 				<ul>
 					<li>
-						Unlimited admin users and contracts
+						Mainnet access (including L2, sidechain)
+					</li>
+					<li>
+						Unlimited admin users
+					</li>
+					<li>
+						Unlimited contracts
 					</li>
 					<li>
 						Unlimited private relayers
 					</li>
 					<li>
 						Unlimited autotasks
-					</li>
-					<li>
-						Mainnet access (including L2, sidechain)
 					</li>
 					<li>
 						Full access to upgrades and new features
@@ -128,8 +150,8 @@
 
 		<div class="col pricing-card">
 			<div class="pricing-card-content">
-				<p class="description">Additionals</p>
-				<h3>Contact Us</h3>
+				<h5>Additionals</h5>
+				<h3> <span class="contact">Contact Us</span> </h3>
 				<ul>
 					<li>
 						Community projects and DAOs
