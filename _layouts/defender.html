@@ -8,6 +8,22 @@ layout: default
 		height: 75vh;
 	}
 
+	.hero .container {
+		display: flex;
+		flex-direction: row;
+	}
+	.hero .container div {
+		width: 50%;
+		text-align: left;
+	}
+
+	img {
+		max-width: 56rem;
+		float: left;
+		height: auto;
+		margin-top: 1rem;
+	}
+
 	.defender-aliance { padding: 8rem 0; }
 	.defender-aliance h6 {
 		font-size: 12px;
@@ -105,23 +121,26 @@ layout: default
 			{% include defender-menu.html %}
 		</div>
 	</nav>
-	<section class="section hero">
 
+
+	<section class="section hero">
 		<div class="container">
-			<h1 class="heading">Ship faster with the security of OpenZeppelin Defender</h1>
-			<p class="description">Automate your Ethereum operations to quickly develop with security best practices.</p>
-			<a href="#" class="btn cta">Sign Up for Free</a>
+			<div>
+				<h1 class="heading fIu">Ship faster with the security of OpenZeppelin Defender</h1>
+				<h4 class="fIu">Automate your Ethereum operations to quickly develop with security best practices.</h4>
+				<a href="#" class="btn cta fIu">Sign Up for Free</a>
+			</div>
+			<div>
+				<img class="" alt="Defender inferface for creating a Relayer" src="../images/defender/hero.png" />
+			</div>
 		</div>
-		
 	</section>
 
 	<section class="defender-aliance">
-
 		<div class="container">
 			<h6 >Trusted by top teams in the space</h6>
 			{% include defender-alliance.html %}
 		</div>
-
 	</section>
 
 	<section>
