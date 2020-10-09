@@ -4,16 +4,6 @@
 	flex-direction: column;
 }
 
-.p-products-grid .grid .col {
-	border-radius: 6px;
-	height: 150px;
-	overflow: hidden;
-	margin-left: 15px;
-	will-change: transform;
-	box-shadow: rgba(0, 0, 0, 0.05) 0px 0.1rem 0.3rem, rgba(0, 0, 0, 0.05) 0px 0.1rem 0.2rem, rgba(0, 0, 0, 0.05) 0px 0.5rem 1.5rem;
-	cursor: pointer;
-}
-
 .pricing-card {
 	background: white;
 	border: 1px solid #EDEDED;
@@ -63,7 +53,10 @@
 }
 
 .pricing-card .btn { width: 100%; }
-.pricing-card .btn.secondary { background: white; }
+.pricing-card .btn.secondary { 
+	background: white; 
+	color: #4e5ee4; 
+}
 
 @media (min-width: 1080px) {
 	.grid.p-products-grid>.row {
@@ -81,49 +74,75 @@
 	<div class="row">
 		<div class="col pricing-card">
 			<div class="pricing-card-content">
-				<p class="description">
-					A library of modular, reusable, secure smart contracts for the Ethereum network, written in Solidity.
-				</p>
+				<p class="description">Testnet</p>
+				<h3>Free</h3>
 				<ul>
-					<li>Leverage standard, tested, and community-reviewed contracts.</li>
-					<li>Most popular library in the industry.</li>
-					<li>Learn from best practices adopted by the ecosystem.</li>
-					<li>Reduce your attack surface by reusing audited code.</li>
+					<li>
+						Full access to all features
+					</li>
+					<li>
+						All popular testnets (including L2, sidechain)
+					</li>
+					<li>
+						Automatic gas-payment funding
+					</li>
+					<li>
+						Community support
+					</li>
+					<li>
+						Community support
+					</li>
 				</ul>
 			</div>
-			<a href="#" class="btn">CTA</a>
+			<a href="#" class="btn">Sign Up for Free</a>
 		</div>
 
 		<div class="col pricing-card">
 			<div class="pricing-card-content">
-				<p class="description">
-					A suite of tools to help you develop, test, upgrade, and deploy smart contracts.
-				</p>
+				<p class="description">Mainnet</p>
+				<h3>$500/month</h3>
 				<ul>
-					<li>Interactive commands to accelerate local development.</li>
-					<li>Easy bug-fixing and quick iterations via smart contract upgrades.</li>
-					<li>Seamless integration with OpenZeppelin Contracts.</li>
-					<li>Multi-network support.</li>
-					<li>Compatible with Truffle.</li>
+					<li>
+						Unlimited admin users and contracts
+					</li>
+					<li>
+						Unlimited private relayers
+					</li>
+					<li>
+						Unlimited autotasks
+					</li>
+					<li>
+						Mainnet access (including L2, sidechain)
+					</li>
+					<li>
+						Full access to upgrades and new features
+					</li>
+					<li>
+						Direct customer support
+					</li>
+				</ul>
 				</ul>
 			</div>
-			<a href="#" class="btn secondary">CTA</a>
+			<a href="#" class="btn secondary">Contact Us</a>
 		</div>
 
 		<div class="col pricing-card">
 			<div class="pricing-card-content">
-				<p class="description">
-					A suite of tools to help you develop, test, upgrade, and deploy smart contracts.
-				</p>
+				<p class="description">Additionals</p>
+				<h3>Contact Us</h3>
 				<ul>
-					<li>Interactive commands to accelerate local development.</li>
-					<li>Easy bug-fixing and quick iterations via smart contract upgrades.</li>
-					<li>Seamless integration with OpenZeppelin Contracts.</li>
-					<li>Multi-network support.</li>
-					<li>Compatible with Truffle.</li>
+					<li>
+						Community projects and DAOs
+					</li>
+					<li>
+						Enterprise integrations
+					</li>
+					<li>
+						Partner integrations
+					</li>
 				</ul>
 			</div>
-			<a href="#" class="btn secondary">CTA</a>
+			<a href="#" class="btn secondary">Contact Us</a>
 		</div>
 
 	</div>
