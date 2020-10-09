@@ -1,0 +1,130 @@
+<style type="text/css">
+
+.grid.p-products-grid>.row {
+	flex-direction: column;
+}
+
+.p-products-grid .grid .col {
+	border-radius: 6px;
+	height: 150px;
+	overflow: hidden;
+	margin-left: 15px;
+	will-change: transform;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 0.1rem 0.3rem, rgba(0, 0, 0, 0.05) 0px 0.1rem 0.2rem, rgba(0, 0, 0, 0.05) 0px 0.5rem 1.5rem;
+	cursor: pointer;
+}
+
+.pricing-card {
+	background: white;
+	border: 1px solid #EDEDED;
+	border-radius: 6px;
+	overflow: hidden;
+	will-change: transform;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 0.1rem 0.3rem, rgba(0, 0, 0, 0.05) 0px 0.1rem 0.2rem, rgba(0, 0, 0, 0.05) 0px 0.5rem 1.5rem;
+	transition: all 0.25s ease-out 0s;
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	min-height: 500px;
+	max-width: 20rem;
+	align-self: center;
+}
+
+.pricing-card .pricing-card-content {
+	flex: 1;
+	padding: 30px 0 25px;
+	height: 100%;
+}
+
+.pricing-card .pricing-card-content .description {
+	margin-bottom: 20px;
+	opacity: 0.8;
+	font-size: 0.94rem;
+	color: #282846;
+	line-height: 1.6;
+	font-weight: 600;
+}
+
+.pricing-card-content li {
+	opacity: 0.8;
+	font-size: 1rem;
+	color: #282846;
+	line-height: 1.6;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 10px;
+}
+
+.pricing-card-content li:before {
+	font-family: "Material Icons";
+	content: "check";
+	color: #4e5ee4;
+	margin-right: 6px;
+}
+
+.pricing-card .btn { width: 100%; }
+.pricing-card .btn.secondary { background: white; }
+
+@media (min-width: 1080px) {
+	.grid.p-products-grid>.row {
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.pricing-card {
+		height: 550px;
+	}
+}
+</style>
+
+<div class="grid p-products-grid">
+	<div class="row">
+		<div class="col pricing-card">
+			<div class="pricing-card-content">
+				<p class="description">
+					A library of modular, reusable, secure smart contracts for the Ethereum network, written in Solidity.
+				</p>
+				<ul>
+					<li>Leverage standard, tested, and community-reviewed contracts.</li>
+					<li>Most popular library in the industry.</li>
+					<li>Learn from best practices adopted by the ecosystem.</li>
+					<li>Reduce your attack surface by reusing audited code.</li>
+				</ul>
+			</div>
+			<a href="#" class="btn">CTA</a>
+		</div>
+
+		<div class="col pricing-card">
+			<div class="pricing-card-content">
+				<p class="description">
+					A suite of tools to help you develop, test, upgrade, and deploy smart contracts.
+				</p>
+				<ul>
+					<li>Interactive commands to accelerate local development.</li>
+					<li>Easy bug-fixing and quick iterations via smart contract upgrades.</li>
+					<li>Seamless integration with OpenZeppelin Contracts.</li>
+					<li>Multi-network support.</li>
+					<li>Compatible with Truffle.</li>
+				</ul>
+			</div>
+			<a href="#" class="btn secondary">CTA</a>
+		</div>
+
+		<div class="col pricing-card">
+			<div class="pricing-card-content">
+				<p class="description">
+					A suite of tools to help you develop, test, upgrade, and deploy smart contracts.
+				</p>
+				<ul>
+					<li>Interactive commands to accelerate local development.</li>
+					<li>Easy bug-fixing and quick iterations via smart contract upgrades.</li>
+					<li>Seamless integration with OpenZeppelin Contracts.</li>
+					<li>Multi-network support.</li>
+					<li>Compatible with Truffle.</li>
+				</ul>
+			</div>
+			<a href="#" class="btn secondary">CTA</a>
+		</div>
+
+	</div>
+</div>
