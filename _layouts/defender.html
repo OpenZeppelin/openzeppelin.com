@@ -5,7 +5,7 @@ layout: default
 
 	.page-defender .hero {
 		background: #F9FAFB;
-		height: 76vh;
+		max-height: 76vh;
 		clip-path: polygon(0 0%, 100% 0, 100% 90%, 0 100%);
 	}
 
@@ -19,7 +19,7 @@ layout: default
 	}
 
 	.hero .content {
-		padding-bottom: 4rem;
+		padding-bottom: 2rem;
 	}
 
 	.hero .description {
@@ -121,6 +121,19 @@ layout: default
 		.page-defender .flex { flex-direction: column; }
 		.page-defender .flex div { width: 100%; }
 		.page-defender .features { clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%); }
+		
+		.page-defender .hero { min-height: 76vh; }
+		.hero .container { 
+			flex-direction: column; 
+	    justify-content: flex-start;
+	    align-items: center;
+		}
+		.hero .container div { width: 100%; }
+		.hero .container img {
+			width: 100%;
+			margin: 0;
+			padding-left: 0;
+		}
 	}
 </style>
 
