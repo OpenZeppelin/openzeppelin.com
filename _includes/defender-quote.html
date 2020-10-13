@@ -1,0 +1,139 @@
+<style type="text/css">
+
+  .defender-quote .card {
+    display: flex;
+    padding: 2.4rem;
+    background: #FFFFFF;
+    box-shadow: 0 8px 14px 0 rgba(60,60,60,0.09);
+    border-radius: 4px;
+    min-height: 220px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+		overflow: hidden;
+  }
+
+	.defender-quote > .row {
+		flex-direction: column;
+  }
+
+	.defender-quote .card:last-child {
+		margin-right: 0;
+  }
+
+	.defender-quote .card .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .defender-quote .card .quote .text {
+		opacity: 0.9;
+		font-size: 1rem;
+		color: #282846;
+		flex: 1;
+		line-height: 1.6;
+		text-align: left;
+		flex: 0;
+		margin-bottom: 20px;
+  }
+
+  .defender-quote .card .card-margin {
+		flex: 0;
+    opacity: 0.8;
+    font-size: 14px;
+    line-height: 2.14;
+    color: #3c3c3c;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+
+	.defender-quote .card:first-child .card-margin {
+		margin-top: -7px;
+	}
+
+  .defender-quote .card .card-margin .strong {
+    font-weight: 600;
+  }
+
+  .defender-quote .card .name {
+
+		display: flex;
+		flex-direction: column;
+    padding: 0 10px;
+    line-height: 1.5;
+  }
+
+  .defender-quote .card .card-margin .img {
+    height: 50px;
+		border-radius: 4px;
+  }
+
+	section.sa-projects .description {
+		font-size: 1.0625rem;
+	}
+
+@media (min-width: 700px) {
+	.defender-quote > .row {
+		flex-direction: row;
+  }
+
+  .defender-quote .card .quote .text {
+		font-size: 1.2rem;
+  }
+
+	.defender-quote .card {
+		margin-right: 40px;
+		height: auto;
+		min-height: 220px;
+  }
+
+	.partners-grid .grid-logos__row {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    min-height: 220px;
+    justify-content: center;
+	}
+}
+
+@media (min-width: 900px) {
+	.defender-quote .card {
+		height: 300px;
+  }
+}
+</style>
+
+
+<div class="defender-quote grid">
+	<div class="row">
+
+		<div class="col card">
+			<blockquote class="quote">
+				<h2 class="text">“With Defender, they are tackling the most urgent needs of dapp developers one at a time, starting with making Ethereum devops sane. Defender is an invaluable tool for any team that needs to manage smart contracts after they are deployed.”</h2>
+				<div class="card-margin">
+					<img class="img" src="../images/photos/tom.jpg" alt="Tom Kysar">
+					<div class="name">
+						<span class="strong">Ken Schiller</span>
+						<span>Software Engineer at dYdX</span>
+					</div>
+				</div>
+			</blockquote>
+		</div>
+
+		<div class="col card">
+			<blockquote class="quote">
+				<h2 class="text">“Defender is all the best practices in a box. It's a no brainer that will improve the security and efficiency of any team. Working with high value smart contracts can be stressful. Defender relieves that stress by limiting the room for error.”</h2>
+				<div class="card-margin">
+					<img class="img" src="../images/photos/brendan.jpg" alt="Brendan Eich">
+					<div class="name">
+						<span class="strong">Peter Watts</span>
+						<span>CTO of Props</span>
+					</div>
+				</div>
+			</blockquote>
+		</div>
+
+	</div>
+</div>
