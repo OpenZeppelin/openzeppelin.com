@@ -39,8 +39,9 @@ layout: default
 	}
 
 	.defender-aliance { padding: 8rem 0; }
-	.defender-aliance h6 {
-		font-size: 12px;
+	.defender-aliance h6,
+	.testimonials h6 {
+		font-size: 14px;
 		font-weight: bold;
 		letter-spacing: 0em;
 		text-align: center;
@@ -64,7 +65,7 @@ layout: default
 	.page-defender .features {
 		background: #F9FAFB;
 		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-		padding: 10rem 1rem;
+		padding: 6rem 1rem;
 	}
 
 	.page-defender .features.inverted { background: white; }
@@ -114,7 +115,7 @@ layout: default
 	
 	.testimonials {
 		padding: 10rem 0;
-		background-color: violet;
+		background-color: #F9FAFB;
 	}
 
 	@media (max-width: 768px) {
@@ -165,7 +166,7 @@ layout: default
 
 	<section class="defender-aliance">
 		<div class="container">
-			<h6 >Trusted by top teams in the space</h6>
+			<h6>Trusted by top teams in the space</h6>
 			{% include defender-alliance.html %}
 		</div>
 	</section>
@@ -236,7 +237,7 @@ layout: default
 	
 	<section class="testimonials">
 		<div class="container">
-			<h2 class="heading">Testimonials</h2>
+			<h6>What our users are saying</h6>
 			{% include defender-quote.html %}
 		</div>
 	</section>
