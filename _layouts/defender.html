@@ -24,11 +24,11 @@ layout: default
 
 	.hero .description {
 		margin-bottom: 3rem;
-    text-align: left;
-    font-size: 1.4rem;
-    line-height: 1.4;
-    color: #575C66;
-   }
+		text-align: left;
+		font-size: 1.4rem;
+		line-height: 1.4;
+		color: #575C66;
+	}
 
 	.hero .container img {
 		max-width: 56rem;
@@ -51,6 +51,45 @@ layout: default
 	}
 
 	/* Features section */
+
+	.overview {
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+	}
+
+	.overview .cards {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		margin-top: 4rem;
+	}
+
+	/* items */
+	.overview .cards div { 
+		width: 15rem; 
+	}
+
+	/* cards 
+	.overview .cards div { 
+		width: 16rem;
+		padding: 2rem;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(44, 55, 75, 0.10);
+    border-radius: 8px;
+    height: 12rem;
+	}*/
+	
+	.overview i {
+		color: #4e5ee4;
+		margin-bottom: 1.5rem;
+	}
+
+	.overview p {
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'Silka';
+	}
 	
 	.page-defender .flex {
 		display: flex;
@@ -65,7 +104,7 @@ layout: default
 	.page-defender .features {
 		background: #F9FAFB;
 		clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
-		padding: 6rem 1rem;
+		padding: 8rem 1rem;
 	}
 
 	.page-defender .features.inverted { background: white; }
@@ -118,9 +157,9 @@ layout: default
 	}
 	
 	.testimonials {
-    padding: 7rem 0;
-    background-color: #F9FAFB;
-    margin-top: 3rem;
+		padding: 7rem 0;
+		background-color: #F9FAFB;
+		margin-top: 3rem;
 	}
 
 	@media (max-width: 768px) {
@@ -180,6 +219,31 @@ layout: default
 
 		<!-- Adim -->
 		<div class="features">
+
+				<!-- Overview -->
+				<div class="container overview">
+					<h3 class="heading">The first secure automation platform for Ethereum </h3>
+					<div class="cards">
+						<div>
+							<i class="material-icons">tab</i>
+							<p>Automated smart contract administration</p>
+						</div>
+						<div>
+							<i class="material-icons">track_changes</i>
+							<p>Secure, private relayers with gas optimization </p>
+						</div>
+						<div>
+							<i class="material-icons">repeat</i>
+							<p>Serverless functions to securely call smart contracts</p>
+						</div>
+						<div>
+							<i class="material-icons">policy</i>
+							<p>Actionable security best practices</p>
+						</div>
+					</div>
+				</div>
+
+
 			<div class="container flex">
 				<div>
 					<p class="problem">Problem</p>
