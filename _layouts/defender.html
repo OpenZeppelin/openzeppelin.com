@@ -54,11 +54,12 @@ layout: default
 
 	.overview {
 		padding-top: 8rem;
-		padding-bottom: 8rem;
+		padding-bottom: 6rem;
 	}
 
 	.overview .cards {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: flex-start;
 		margin-top: 4rem;
@@ -66,7 +67,8 @@ layout: default
 
 	/* items */
 	.overview .cards div { 
-		width: 15rem; 
+		width: 23%;
+		padding-bottom: 2rem;
 	}
 
 	/* cards 
@@ -179,6 +181,8 @@ layout: default
 			margin: 0;
 			padding-left: 0;
 		}
+
+		.overview .cards div { width: 44%; }
 	}
 </style>
 
