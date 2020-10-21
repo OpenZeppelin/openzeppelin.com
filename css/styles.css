@@ -1586,6 +1586,10 @@ section .heading + .grid-logos {
   padding: 0 .5em;
   border: 0;
   outline: 0;
+
+  background-color: transparent;
+  color: inherit;
+  cursor: pointer;
 }
 
 .popup-banner-close:hover, .popup-banner-close:active {
