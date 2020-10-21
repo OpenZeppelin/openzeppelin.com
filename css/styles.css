@@ -1548,6 +1548,8 @@ section .heading + .grid-logos {
 
   font-family: 'silka';
   font-weight: 300;
+  font-size: 18px;
+  line-height: 1.6;
   color: white;
   text-align: center;
 
@@ -1570,6 +1572,7 @@ section .heading + .grid-logos {
 .popup-banner a {
   color: inherit;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .popup-banner-new::before {
