@@ -1571,7 +1571,7 @@ section .heading + .grid-logos {
 
 .popup-banner a {
   color: inherit;
-  font-weight: bold;
+  font-weight: 500;
   text-decoration: underline;
 }
 
