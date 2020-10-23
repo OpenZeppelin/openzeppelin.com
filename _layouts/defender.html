@@ -72,8 +72,22 @@ layout: default
 		padding: 6rem 1rem;
 	}
 
-	.page-defender .features.inverted { background: white; }
-	.description.max-width { max-width: 25rem;}
+	.page-defender .features.inverted {  background: white; }
+
+	.page-defender .features .app {
+    color: #4E5DE4;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .page-defender .features .app i {
+    font-size: 1.25rem;
+    margin-right: .5rem;
+  }
+
+  .description.max-width { max-width: 25rem;}
 
 	.problem,
 	.solution {
@@ -186,6 +200,7 @@ layout: default
 		<div class="features">
 			<div class="container flex">
 				<div>
+					<div class="app"><i class="material-icons">tab</i><span>Admin</span></div>
 					<h2 class="heading">
 						Automate your smart contract administration with a clean UI
 					</h2>
@@ -208,6 +223,7 @@ layout: default
 		<div class="features inverted">
 			<div class="container flex">
 				<div>
+					<div class="app"><i class="material-icons">track_changes</i><span>Relay</span></div>
 					<h2 class="heading">
 						Build with private and secure transaction infrastructure 
 					</h2>
@@ -226,6 +242,7 @@ layout: default
 		<div class="features">
 			<div class="container flex">
 				<div>
+					<div class="app"><i class="material-icons">repeat</i><span>Autotasks</span></div>
 					<h2 class="heading">
 						Create automated scripts to call your smart contracts
 					</h2>
@@ -243,6 +260,7 @@ layout: default
 		<div class="features inverted">
 			<div class="container flex">
 				<div>
+					<div class="app"><i class="material-icons">policy</i><span>Advisor</span></div>
 					<h2 class="heading">
 						Quickly implement security best practices
 					</h2>
