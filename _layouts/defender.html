@@ -55,6 +55,12 @@ layout: default
 	}
 
 	/* Features section */
+
+  .features .centered {
+    text-align: center;
+    margin: 6rem auto;
+    max-width: 36rem;
+}
 	
 	.page-defender .flex {
 		display: flex;
@@ -72,14 +78,20 @@ layout: default
 		padding: 6rem 1rem;
 	}
 
-	.page-defender .features.inverted {  background: white; }
+	.page-defender .features.inverted { 
+    background: white;
+  }
+
+  .page-defender .features.inverted .flex { 
+    flex-direction: row-reverse;
+  }
 
 	.page-defender .features .app {
     color: #4E5DE4;
     font-weight: bold;
     font-size: 1rem;
     line-height: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .page-defender .features .app i {
@@ -142,7 +154,7 @@ layout: default
 	}
 
 	@media (max-width: 768px) {
-		.page-defender .flex { flex-direction: column; }
+		.page-defender .flex, .page-defender .features.inverted .flex { flex-direction: column; }
 		.page-defender .flex div { width: 100%; }
 		.page-defender .features { clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%); }
 		
@@ -198,6 +210,7 @@ layout: default
 
 		<!-- Adim -->
 		<div class="features">
+      <h1 class="heading centered">The first secure automation platform for Ethereum</h1>
 			<div class="container flex">
 				<div>
 					<div class="app"><i class="material-icons">tab</i><span>Admin</span></div>
@@ -212,12 +225,13 @@ layout: default
 				<video class="video-app" autoplay loop muted>
 					<source src="../images/defender/admin-actions.mp4" type="video/mp4" />
 				</video>
+        <!--video class="video-app" autoplay loop muted>
+          <source src="../images/defender/admin-upgrades.mp4" type="video/mp4" />
+        </video-->
 			</div>
 		</div>
 
-    <video class="video-app" autoplay loop muted>
-      <source src="../images/defender/admin-upgrades.mp4" type="video/mp4" />
-    </video>
+
 		
 		<!-- Relay -->
 		<div class="features inverted">
