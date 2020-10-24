@@ -52,7 +52,7 @@ Please refer to the Data Privacy Notice found on the websites for a complete exp
   <li>You may not hyperlink to images or other non-hypertext content on the forum on other webpages.</li>
   <li>You may not hyperlink to images or other non-hypertext content on the forum on other webpages.</li>
   <li>You may not remove any marks showing proprietary ownership from materials you download from the forum.</li>
-  <li>You may not show any part of the forum on other websites with <code><iframe></code>.</li>
+  <li>You may not show any part of the forum on other websites with <code>&lt;iframe&gt;</code>.</li>
   <li>You may not disable, avoid, or circumvent any security or access restrictions of the forum.</li>
   <li>You may not strain infrastructure of the forum with an unreasonable volume of requests, or requests designed to impose an unreasonable load on information systems underlying the forum.</li>
   <li>You may not impersonate others through the forum.</li>
