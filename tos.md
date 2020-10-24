@@ -6,67 +6,13 @@ subtitle: 'Last Updated: October 23, 2020'
 <p>Your use of the OpenZeppelin Services is governed by this agreement (the &ldquo;<strong>Terms</strong>&rdquo;). The &ldquo;<strong>Services</strong>&rdquo; mean the websites located at <a href="https://defender.openzeppelin.com">https://defender.openzeppelin.com</a>, <a href="https://docs.openzeppelin.com">https://docs.openzeppelin.com</a>, <a href="https://docs.openzeppelin.com">https://docs.openzeppelin.com</a>, <a href="http://forum.openzeppelin.com">http://forum.openzeppelin.com</a>, <a href="https://blog.openzeppelin.com">https://blog.openzeppelin.com</a> as well as OpenZeppelin Contracts, OpenZeppelin Starter Kits, OpenZeppelin SDK and OpenZeppelin Defender, which is made available on a software-as-a-service basis, and including any documentation, blog posts, forums, features, tools and other materials offered from time to time by OpenZeppelin.</p> 
 <p>As used herein, &ldquo;<strong>OpenZeppelin</strong>&rdquo;, &ldquo;<strong>we</strong>&rdquo;, &ldquo;<strong>our</strong>&rdquo; or &ldquo;<strong>us</strong>&rdquo; means zOS Global Limited and/or its affiliates to the extent involved in providing the OpenZeppelin Services. Zeppelin Audits Ltd. is the affiliate responsible for Services related to security services and research.</p>
 <p>We call users of the Services “Users” or “you” for purposes of these Terms. Users of Services requiring accounts are responsible for all activities that occur from respective User accounts and for compliance with these Terms. Regardless of what type of User you are, these Terms create a legally binding agreement between you and OpenZeppelin and explain the rules governing use of the Services.</p>
-<p>In order to use the Services, you must first agree to the Terms. You agree to the Terms by using any Services. You understand and agree that OpenZeppelin will treat your use of the Services as acceptance of the Terms from that point onwards. Please read these Terms carefully and keep a copy of them for your reference.</p>
-<p>PLEASE READ THESE TERMS CAREFULLY AND KEEP A COPY FOR YOUR REFERENCE. THE SERVICES ARE OFFERED BY OPENZEPPELIN. THESE TERMS OF USE GOVERN THE USE OF THE SERVICES AND APPLY TO ALL USERS ACCESSING OR USING THE SERVICES IN ANY WAY, INCLUDING BROWSING THE WEBSITES. BY ACCESSING THE SERVICES, YOU REPRESENT THAT (1) YOU HAVE READ, UNDERSTAND, AND AGREE TO BE BOUND BY THESE TERMS OF USE, (2) YOU ARE OF LEGAL AGE TO FORM A BINDING CONTRACT WITH OPENZEPPELIN, AND (3) YOU HAVE THE AUTHORITY TO ENTER INTO THESE TERMS OF USE PERSONALLY OR ON BEHALF OF THE COMPANY ON BEHALF OF WHICH YOU ARE ACTING. <strong>IF YOU DO NOT AGREE TO BE BOUND BY THESE TERMS OF USE, YOU MAY NOT ACCESS OR USE THE SERVICES.</strong></p>
-<p><strong>PLEASE BE AWARE THAT THE DISPUTE RESOLUTION SECTION OF THESE TERMS BELOW CONTAINS PROVISIONS GOVERNING HOW CLAIMS THAT YOU AND WE HAVE AGAINST EACH OTHER ARE RESOLVED, INCLUDING, WITHOUT LIMITATION, ANY CLAIMS THAT AROSE OR WERE ASSERTED PRIOR TO THE EFFECTIVE DATE OF THESE TERMS. IN PARTICULAR, IT CONTAINS AN ARBITRATION CLAUSE WHICH WILL, WITH LIMITED EXCEPTIONS, REQUIRE DISPUTES BETWEEN US TO BE SUBMITTED TO BINDING AND FINAL ARBITRATION.</strong></p>
-<p><strong>ANY DISPUTE OR CLAIM RELATING IN ANY WAY TO YOUR USE OF THE SERVICES WILL BE GOVERNED AND INTERPRETED BY AND UNDER THE LAWS OF CAYMAN ISLANDS, WITHOUT GIVING EFFECT TO ANY PRINCIPLES THAT PROVIDE FOR THE APPLICATION OF THE LAW OF ANY OTHER JURISDICTION. THE UNITED NATIONS CONVENTION ON CONTRACTS FOR THE INTERNATIONAL SALE OF GOODS IS EXPRESSLY EXCLUDED FROM THESE TERMS.</strong></p>
+<p>In order to use the Services, you must first agree to the Terms. You agree to the Terms by using any Services. You understand and agree that OpenZeppelin will treat your use of the Services as acceptance of the Terms from that point onwards.</p>
+<p>PLEASE READ THESE TERMS CAREFULLY AND KEEP A COPY FOR YOUR REFERENCE. THE SERVICES ARE OFFERED BY OPENZEPPELIN. THESE TERMS OF USE GOVERN THE USE OF THE SERVICES AND APPLY TO ALL USERS ACCESSING OR USING THE SERVICES IN ANY WAY. BY ACCESSING THE SERVICES, YOU REPRESENT THAT (1) YOU HAVE READ, UNDERSTAND, AND AGREE TO BE BOUND BY THESE TERMS OF USE, (2) YOU ARE OF LEGAL AGE TO FORM A BINDING CONTRACT WITH OPENZEPPELIN, AND (3) YOU HAVE THE AUTHORITY TO ENTER INTO THESE TERMS OF USE PERSONALLY OR ON BEHALF OF THE COMPANY ON BEHALF OF WHICH YOU ARE ACTING. <b>IF YOU DO NOT AGREE TO BE BOUND BY THESE TERMS OF USE, YOU MAY NOT ACCESS OR USE THE SERVICES.</b></p>
+<p><b>PLEASE BE AWARE THAT THE DISPUTE RESOLUTION SECTION OF THESE TERMS BELOW CONTAINS PROVISIONS GOVERNING HOW CLAIMS THAT YOU AND WE HAVE AGAINST EACH OTHER ARE RESOLVED, INCLUDING, WITHOUT LIMITATION, ANY CLAIMS THAT AROSE OR WERE ASSERTED PRIOR TO THE EFFECTIVE DATE OF THESE TERMS. IN PARTICULAR, IT CONTAINS AN ARBITRATION CLAUSE WHICH WILL, WITH LIMITED EXCEPTIONS, REQUIRE DISPUTES BETWEEN US TO BE SUBMITTED TO BINDING AND FINAL ARBITRATION.</b></p>
+<p><b>ANY DISPUTE OR CLAIM RELATING IN ANY WAY TO YOUR USE OF THE SERVICES WILL BE GOVERNED AND INTERPRETED BY AND UNDER THE LAWS OF CAYMAN ISLANDS, WITHOUT GIVING EFFECT TO ANY PRINCIPLES THAT PROVIDE FOR THE APPLICATION OF THE LAW OF ANY OTHER JURISDICTION. THE UNITED NATIONS CONVENTION ON CONTRACTS FOR THE INTERNATIONAL SALE OF GOODS IS EXPRESSLY EXCLUDED FROM THESE TERMS.</b></p>
 <h2>Electronic Communications</h2>
-<p>Accessing the Services, including visiting the websites, constitutes electronic communications. You consent to receive electronic communications and you agree that all agreements, notices, disclosures and other communications that we provide to you electronically, via the websites, satisfy any legal requirement that such communications be in writing. The foregoing does not affect your statutory rights.</p>
-<p>Please refer to the Data Privacy Notice found on the websites for a complete explanation of how OpenZeppelin processes personal information. If you are under the age of 18, you may not use the Services, unless you have the permission of your parent or guardian.</p>
-<h2>Risk of Regulatory Actions in One or More Jurisdictions</h2>
-<p>The Services could be impacted by one or more regulatory inquiries or regulatory action, which could impede or limit the ability of OpenZeppelin to continue to offer or develop the Services, or which could impede or limit your ability to access or use the Services.</p>
-<h2>Technical Knowledge</h2>
-<p>By utilizing the Services, you represent and warrant that you understand the inherent risks associated with blockchain-based software systems. Any use or interaction with the Services could require a comprehensive understanding of computer science in order to appreciate inherent risks. You represent and warrant that you possess relevant knowledge and skills.</p>
-<h2>Risk of Weaknesses or Exploits in the Field of Cryptography</h2>
-<p>You acknowledge and understand that cryptography is a progressing field. Advances in code cracking or technical advances such as the development of quantum computers may present risks to blockchain-based technologies and the Services, which could result in the theft or loss of your cryptographic tokens or property. To the extent possible, it is intended to update the Services to account for any advances in cryptography and to incorporate additional security measures, but we do not guarantee or otherwise represent full security of the Services. By using the Services, you acknowledge these inherent risks.</p>
-<h2>Volatility of Cryptocurrency</h2>
-<p>You understand that Ethereum and other blockchain technologies and associated currencies or tokens are highly volatile due to many factors including but not limited to adoption, speculation, technology and security risks. You also acknowledge that the cost of transacting on such technologies is variable and may increase at any time causing impact to any activities taking place on the Ethereum blockchain. You acknowledge these risks and represent that OpenZeppelin or any related entity or person cannot be held liable for such fluctuations or increased costs.</p>
-<h2>Application Security</h2>
-<p>You acknowledge that the Services are subject to flaws and acknowledge that you are solely responsible for evaluating any code provided by OpenZeppelin. This warning and others later provided by OpenZeppelin in no way evidence or represent an on-going duty to alert you to all of the potential risks of utilizing the Services.</p>
-<h2>Third Party Services</h2>
-<p>The Services may contain links to other websites (&ldquo;<strong>Linked Sites</strong>&rdquo;). The Linked Sites are not under the control of OpenZeppelin and OpenZeppelin is not responsible or liable for the contents of any Linked Site, including without limitation any link or content contained in a Linked Site, or any changes or updates to a Linked Site. When you click on a link to a Linked Site, we may not warn you that you have left our Services and are subject to the terms and conditions (including privacy policies) of another website or destination. OpenZeppelin is providing these links to you only as a convenience, and the inclusion of any link does not imply endorsement by OpenZeppelin of the site or any association with its operators. You use any Linked Sites at your own risk. When you leave the Services, our Terms and policies no longer govern. You should review applicable terms and policies, including privacy and data gathering practices, of the Linked Sites, and should make whatever investigation you feel necessary or appropriate before proceeding with any transaction with any third party.</p>
-<p>Certain Services made available via our websites are delivered by third party sites and organizations. As with Linked Sites, OpenZeppelin has no control over such third party services, does not assume (and expressly disclaims) responsibility or liability for any such services, their availability, or any content or other materials available from such third parties.</p>
-<p>To the fullest extent permitted by applicable law, you release OpenZeppelin from responsibility, liability, claims, demands, and/or damages (actual and consequential) of every kind and nature, known and unknown (including, but not limited to, claims of negligence), arising out of acts or omissions of any third parties.</p>
-<h2>Prohibited Uses and Intellectual Property</h2>
-<p>As a condition of your use of the Services, you warrant to OpenZeppelin that you will not use the Services for any purpose that is unlawful or prohibited by these terms. You may not use the Services in any manner that could damage, disable, overburden, or impair the Services or interfere with any other party&rsquo;s use and enjoyment of the Services. You may not obtain or attempt to obtain any materials or information through any means not intentionally made available or provided for through the Services.</p>
-<p>The content included on our Services, such as text, graphics, logos, images, as well as the compilation thereof, and any software used on our Services, is the property of OpenZeppelin or its licensors, contributors, and suppliers and is protected by copyright, trademark and other laws that protect intellectual property and proprietary rights. You agree to observe and abide by all copyright and other proprietary notices, licences, legends or other restrictions contained in any such content, as well as those automatically granted under applicable law.</p>
-<p>You will not modify, publish, transmit, reverse engineer, participate in the transfer or sale, create derivative works, or in any way exploit any of the content, in whole or in part, found on the Services, except as described in these Terms. OpenZeppelin content is not for resale. Your use of the Services does not entitle you to make any unauthorized use of any protected content, and you will not delete or alter any proprietary rights or attribution notices in any content. You will use protected content solely for your personal use and will make no other use of the content without the express written permission of OpenZeppelin, or OpenZeppelin and the copyright owner, as the case may be. You agree that you do not acquire any ownership rights in any protected content.</p>
-<h2>Prohibited Uses and Intellectual Property – Forum</h2>
-<ol>
-<li>You may not use or try to use another&rsquo;s account on the forum without their specific permission.</li>
-<li>You may not buy, sell, or otherwise trade in user names or other unique identifiers on the forum.</li>
-<li>You may not send advertisements, chain letters, or other solicitations through the forum, or use the forum to gather addresses or other personal data for commercial mailing lists or databases.</li>
-<li>You may not automate access to the forum, or monitor the forum, such as with a web crawler, browser plug-in or add-on or other computer program that is not a web browser. You may crawl the forum to index it for a publicly available search engine, if you run one.</li>
-<li>You may not use the forum to send e-mail to distribution lists, newsgroups, or group mail aliases.</li>
-<li>You may not falsely imply that you&rsquo;re affiliated with or endorsed by OpenZeppelin.</li>
-<li>You may not hyperlink to images or other non-hypertext content on the forum on other webpages.</li>
-<li>You may not remove any marks showing proprietary ownership from materials you download from the forum.</li>
-<li>You may not show any part of the forum on other websites with &lt;iframe&gt;.</li>
-<li>You may not disable, avoid, or circumvent any security or access restrictions of the forum.</li>
-<li>You may not strain infrastructure of the forum with an unreasonable volume of requests, or requests designed to impose an unreasonable load on information systems underlying the forum.</li>
-<li>You may not impersonate others through the forum.</li>
-<li>You may not encourage or help anyone in violation of these terms.</li>
-<li>You may not submit content to the forum that is illegal, offensive, or otherwise harmful to others. This includes content that is harassing, inappropriate, or abusive.</li>
-<li>You may not submit content to the forum that violates the law, infringes anyone&rsquo;s intellectual property rights, violates anyone&rsquo;s privacy, or breaches agreements you have with others.</li>
-<li>You may not submit content to the forum containing malicious computer code, such as computer viruses or spyware.</li>
-<li>You may not submit content to the forum as a mere placeholder, to hold a particular address, user name or other unique identifier.</li>
-<li>You may not use the forum to disclose information that you don&rsquo;t have the right to disclose, like others&rsquo; confidential or personal information.</li>
-</ol>
-<p>Nothing in these Terms gives OpenZeppelin any ownership rights in intellectual property that you share in our forum, such as your account information, posts or other content you submit to the forum. You remain solely responsible for content you submit to the forum. You agree not to wrongly imply that content you submit to the forum is sponsored or approved by OpenZeppelin. These Terms do not obligate OpenZeppelin to store, maintain or provide copies of content you submit, and to change it, according to these Terms.</p>
-<p>Content you submit to the forum belongs to you, and you decide what permission to give others for it. But at a minimum, you agree to grant OpenZeppelin a perpetual non-exclusive license to provide content that you submit to the forum to other users of the forum. That special license allows OpenZeppelin to copy, publish and analyze content you submit to the forum.</p>
-<p>When content you submit is removed from the forum, whether by you or by OpenZeppelin, OpenZeppelin&rsquo;s special license ends when the last copy disappears from OpenZeppelin&rsquo;s backups, caches and other systems. Other licenses you apply to content you submit may continue after your content is removed. Those licenses may give others, or OpenZeppelin itself, the right to share your content through the forum again. Others who receive content you submit to the forum may violate the terms on which you license your content. You agree that OpenZeppelin will not be liable to you for those violations or their consequences.</p>
-<h2>Open Source Software</h2>
-<p>OpenZeppelin may make the source code for much of the software related to our Services available for download as open source software. You agree to be bound by, and comply with, any license agreement that applies to this open source software. You will not indicate that you are associated with OpenZeppelin in connection with any of your modifications or distributions of this open source software. When we host any software and/or enable you to access and use such software as a service through our Services, then these Terms will apply to such access and use.</p>
-<h2>Notice and Procedure For Making Claims of Copyright Infringement</h2>
-<p>If you believe that your copyright or the copyright of a person on whose behalf you are authorized to act has been infringed, please provide a written notice to <a href="mailto:legal@openzeppelin.com">legal@openzeppelin.com</a> containing the following information:</p>
-<ul>
-<li>an electronic or physical signature of the person authorized to act on behalf of the owner of the copyright or other intellectual property interest;</li>
-<li>a description of the copyrighted work or other intellectual property that you claim has been infringed;</li>
-<li>a description of where the material that you claim is infringing is located on the Services;</li>
-<li>your address, telephone number, and email address;</li>
-<li>a statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law;</li>
-<li>a statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright or intellectual property owner or authorized to act on the copyright or intellectual property owner's behalf.</li>
-</ul>
+<p>Accessing the Services, including visiting the websites, constitutes electronic communications. You consent to receive electronic communications and you agree that all agreements, notices, disclosures and other communications that we provide to you electronically, via the websites, satisfy any legal requirement that such communications be in writing. The foregoing does not affect your statutory rights.
+Please refer to the Data Privacy Notice found on the websites for a complete explanation of how OpenZeppelin processes personal information. If you are under the age of 18, you may not use the Services, unless you have the permission of your parent or guardian.</p>
 <h2>Global Users</h2>
 <p>The Services may be accessed from countries around the world and may contain references to Services and content that are not available in your country. OpenZeppelin makes no representations that the Services are appropriate or available for use in other locations. You may not use the Services if you are a person barred from using the Services under the laws the country in which you are resident or from which you use the Services. Those who access or use the Services or content do so at their own volition and are responsible for compliance with local law.</p>
 <h2>Application Security</h2>
@@ -97,45 +43,25 @@ subtitle: 'Last Updated: October 23, 2020'
 <h2>Terms and Conditions of the Forum</h2>
 <p>The following terms solely govern your use of Services related to the OpenZeppelin forum found at <a href="http://forum.openzeppelin.com">http://forum.openzeppelin.com</a>.</p>
 <ol>
-  <li>
-  You may not use or try to use another’s account on the forum without their specific permission.
-  </li><li>
-  You may not buy, sell, or otherwise trade in user names or other unique identifiers on the forum.
-  </li><li>
-  You may not send advertisements, chain letters, or other solicitations through the forum, or use the forum to gather addresses or other personal data for commercial mailing lists or databases.
-  </li><li>
-  You may not automate access to the forum, or monitor the forum, such as with a web crawler, browser plug-in or add-on or other computer program that is not a web browser. You may crawl the forum to index it for a publicly available search engine, if you run one.
-  </li><li>
-  You may not use the forum to send e-mail to distribution lists, newsgroups, or group mail aliases.
-  </li><li>
-  You may not falsely imply that you’re affiliated with or endorsed by OpenZeppelin.
-  </li><li>
-  You may not hyperlink to images or other non-hypertext content on the forum on other webpages.
-  </li><li>
-  You may not hyperlink to images or other non-hypertext content on the forum on other webpages.
-  </li><li>
-  You may not remove any marks showing proprietary ownership from materials you download from the forum.
-  </li><li>
-  You may not show any part of the forum on other websites with <code><iframe></code>.
-  </li><li>
-  You may not disable, avoid, or circumvent any security or access restrictions of the forum.
-  </li><li>
-  You may not strain infrastructure of the forum with an unreasonable volume of requests, or requests designed to impose an unreasonable load on information systems underlying the forum.
-  </li><li>
-  You may not impersonate others through the forum.
-  </li><li>
-  You may not encourage or help anyone in violation of these terms.
-  </li><li>
-  You may not submit content to the forum that is illegal, offensive, or otherwise harmful to others. This includes content that is harassing, inappropriate, or abusive.
-  </li><li>
-  You may not submit content to the forum that violates the law, infringes anyone’s intellectual property rights, violates anyone’s privacy, or breaches agreements you have with others.
-  </li><li>
-  You may not submit content to the forum containing malicious computer code, such as computer viruses or spyware.
-  </li><li>
-  You may not submit content to the forum as a mere placeholder, to hold a particular address, user name or other unique identifier.
-  </li><li>
-  You may not use the forum to disclose information that you don’t have the right to disclose, like others’ confidential or personal information.
-  </li>
+  <li>You may not use or try to use another’s account on the forum without their specific permission.</li>
+  <li>You may not buy, sell, or otherwise trade in user names or other unique identifiers on the forum.</li>
+  <li>You may not send advertisements, chain letters, or other solicitations through the forum, or use the forum to gather addresses or other personal data for commercial mailing lists or databases.</li>
+  <li>You may not automate access to the forum, or monitor the forum, such as with a web crawler, browser plug-in or add-on or other computer program that is not a web browser. You may crawl the forum to index it for a publicly available search engine, if you run one.</li>
+  <li>You may not use the forum to send e-mail to distribution lists, newsgroups, or group mail aliases.</li>
+  <li>You may not falsely imply that you’re affiliated with or endorsed by OpenZeppelin.</li>
+  <li>You may not hyperlink to images or other non-hypertext content on the forum on other webpages.</li>
+  <li>You may not hyperlink to images or other non-hypertext content on the forum on other webpages.</li>
+  <li>You may not remove any marks showing proprietary ownership from materials you download from the forum.</li>
+  <li>You may not show any part of the forum on other websites with <code><iframe></code>.</li>
+  <li>You may not disable, avoid, or circumvent any security or access restrictions of the forum.</li>
+  <li>You may not strain infrastructure of the forum with an unreasonable volume of requests, or requests designed to impose an unreasonable load on information systems underlying the forum.</li>
+  <li>You may not impersonate others through the forum.</li>
+  <li>You may not encourage or help anyone in violation of these terms.</li>
+  <li>You may not submit content to the forum that is illegal, offensive, or otherwise harmful to others. This includes content that is harassing, inappropriate, or abusive.</li>
+  <li>You may not submit content to the forum that violates the law, infringes anyone’s intellectual property rights, violates anyone’s privacy, or breaches agreements you have with others.</li>
+  <li>You may not submit content to the forum containing malicious computer code, such as computer viruses or spyware.</li>
+  <li>You may not submit content to the forum as a mere placeholder, to hold a particular address, user name or other unique identifier.</li>
+  <li>You may not use the forum to disclose information that you don’t have the right to disclose, like others’ confidential or personal information.</li>
 </ol>
 <p>Nothing in these Terms gives OpenZeppelin any ownership rights in intellectual property that you share in our forum, such as your account information, posts or other content you submit to the forum. You remain solely responsible for content you submit to the forum. You agree not to wrongly imply that content you submit to the forum is sponsored or approved by OpenZeppelin. These Terms do not obligate OpenZeppelin to store, maintain or provide copies of content you submit, and to change it, according to these Terms.</p>
 <p>Content you submit to the forum belongs to you, and you decide what permission to give others for it. But at a minimum, you agree to grant OpenZeppelin a perpetual non-exclusive license to provide content that you submit to the forum to other users of the forum. That special license allows OpenZeppelin to copy, publish and analyze content you submit to the forum.</p>
@@ -143,24 +69,12 @@ subtitle: 'Last Updated: October 23, 2020'
 <h2>Notice and Procedure For Making Claims of Copyright Infringement</h2>
 <p>If you believe that your copyright or the copyright of a person on whose behalf you are authorized to act has been infringed, please provide a written notice to legal@openzeppelin.com containing the following information:</p>
 <ul>
-  <li>
-  an electronic or physical signature of the person authorized to act on behalf of the owner of the copyright or other intellectual property interest;
-  </li>
-  <li>
-  a description of the copyrighted work or other intellectual property that you claim has been infringed;
-  </li>
-  <li>
-  a description of where the material that you claim is infringing is located on the Services;
-  </li>
-  <li>
-  your address, telephone number, and email address;
-  </li>
-  <li>
-  a statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law;
-  </li>
-  <li>
-  a statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright or intellectual property owner or authorized to act on the copyright or intellectual property owner's behalf.
-  </li>
+  <li>an electronic or physical signature of the person authorized to act on behalf of the owner of the copyright or other intellectual property interest;</li>
+  <li>a description of the copyrighted work or other intellectual property that you claim has been infringed;</li>
+  <li>a description of where the material that you claim is infringing is located on the Services;</li>
+  <li>your address, telephone number, and email address;</li>
+  <li>a statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law;</li>
+  <li>a statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright or intellectual property owner or authorized to act on the copyright or intellectual property owner's behalf.</li>
 </ul>
 <h2>Indemnification</h2>
 <p>You agree to indemnify, defend and hold harmless OpenZeppelin, its officers, directors, employees, agents, affiliates and other third parties, for any losses, costs, liabilities and expenses (including reasonable attorneys’ fees) relating to or arising out of your use of the Services or inability to use the Services, your violation of any these Terms or your violation of any rights, including intellectual property rights, of a third party, or your violation of any applicable laws, rules or regulations. OpenZeppelin reserves the right, at its own cost, to assume the exclusive defense and control of any matter otherwise subject to indemnification by you, in which event you will fully cooperate with OpenZeppelin in asserting any available defenses.</p>
