@@ -136,8 +136,9 @@ layout: default
 
 	.tabbed {
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		align-items: center;
+		grid-gap: 1rem;
 	}
 
 	.tabbed > [type=radio] {
@@ -153,10 +154,11 @@ layout: default
 		cursor: pointer;
 		padding: .5em;
 		color: #4E5DE4;
+		justify-self: start;
 	}
 
 	.tabbed > label:nth-of-type(odd) {
-		grid-column: 2 / 2;
+		justify-self: end;
 	}
 
 	.tabbed > [type=radio]:not(:checked) + label {
