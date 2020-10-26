@@ -265,14 +265,24 @@ layout: default
 					</p>
 				</div>
 
-				<video class="video-app" autoplay loop muted>
-					<source src="../images/defender/admin_actions.webm" type="video/webm" />
-					<source src="../images/defender/admin_actions.mp4" type="video/mp4" />
-				</video>
-				<!--video class="video-app" autoplay loop muted>
-					<source src="../images/defender/admin_upgrades.webm" type="video/webm" />
-					<source src="../images/defender/admin_upgrades.mp4" type="video/mp4" />
-				</video-->
+				<div class="tabbed">
+					<input type="radio" id="admin-tab-1" name="admin-tab-group" checked>
+					<label for="admin-tab-1">Admin Actions</label>
+					<div class="tabbed-tab-content">
+						<video class="video-app" autoplay loop muted>
+							<source src="../images/defender/admin_actions.webm" type="video/webm" />
+							<source src="../images/defender/admin_actions.mp4" type="video/mp4" />
+						</video>
+					</div>
+					<input type="radio" id="admin-tab-2" name="admin-tab-group" checked>
+					<label for="admin-tab-2">Upgrades</label>
+					<div class="tabbed-tab-content">
+						<video class="video-app" autoplay loop muted>
+							<source src="../images/defender/admin_upgrade.webm" type="video/webm" />
+							<source src="../images/defender/admin_upgrade.mp4" type="video/mp4" />
+						</video>
+					</div>
+				</div>
 			</div>
 		</div>
 
