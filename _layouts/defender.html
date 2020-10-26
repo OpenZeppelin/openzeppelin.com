@@ -134,6 +134,51 @@ layout: default
 		margin-top: 1rem;
 	}
 
+	.tabbed {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		grid-gap: 1rem;
+	}
+
+	.tabbed > [type=radio] {
+		display: none;
+	}
+
+	.tabbed > label {
+		font-family: 'silka';
+		font-weight: bold;
+		font-variant: small-caps;
+		text-transform: lowercase;
+		text-align: center;
+		cursor: pointer;
+		padding: .5em;
+		color: #4E5DE4;
+		justify-self: start;
+	}
+
+	.tabbed > label:nth-of-type(odd) {
+		justify-self: end;
+	}
+
+	.tabbed > [type=radio]:not(:checked) + label {
+		color: #818998;
+	}
+
+	.tabbed-tab-content {
+		grid-column: 1 / -1;
+		grid-row: 1 / 1;
+	}
+
+	.tabbed-tab-content img {
+		max-width: 100%
+	}
+
+	.tabbed > [type=radio]:not(:checked) + label + .tabbed-tab-content {
+		visibility: hidden;
+		z-index: -1;
+	}
+
 	.pricing { 
 		padding: 2rem 0 7rem; 
 		background-color: #F9FAFB; 
@@ -222,14 +267,24 @@ layout: default
 					</p>
 				</div>
 
-				<video class="video-app" autoplay loop muted>
-					<source src="../images/defender/admin_actions.webm" type="video/webm" />
-					<source src="../images/defender/admin_actions.mp4" type="video/mp4" />
-				</video>
-				<!--video class="video-app" autoplay loop muted>
-					<source src="../images/defender/admin_upgrades.webm" type="video/webm" />
-					<source src="../images/defender/admin_upgrades.mp4" type="video/mp4" />
-				</video-->
+				<div class="tabbed">
+					<input type="radio" id="admin-tab-1" name="admin-tab-group" checked>
+					<label for="admin-tab-1">Admin Actions</label>
+					<div class="tabbed-tab-content">
+						<video class="video-app" autoplay loop muted>
+							<source src="../images/defender/admin_actions.webm" type="video/webm" />
+							<source src="../images/defender/admin_actions.mp4" type="video/mp4" />
+						</video>
+					</div>
+					<input type="radio" id="admin-tab-2" name="admin-tab-group">
+					<label for="admin-tab-2">Upgrades</label>
+					<div class="tabbed-tab-content">
+						<video class="video-app" autoplay loop muted>
+							<source src="../images/defender/admin_upgrade.webm" type="video/webm" />
+							<source src="../images/defender/admin_upgrade.mp4" type="video/mp4" />
+						</video>
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -248,10 +303,21 @@ layout: default
 					</p>
 				</div>
 				
-				<video class="video-app" autoplay loop muted>
-  				<source src="../images/defender/relay.webm" type="video/webm" />
-  				<source src="../images/defender/relay.mp4" type="video/mp4" />
-				</video>
+				<div class="tabbed">
+					<input type="radio" id="relay-tab-1" name="relay-tab-group" checked>
+					<label for="relay-tab-1">Interface</label>
+					<div class="tabbed-tab-content">
+						<video class="video-app" autoplay loop muted>
+							<source src="../images/defender/relay.webm" type="video/webm" />
+							<source src="../images/defender/relay.mp4" type="video/mp4" />
+						</video>
+					</div>
+					<input type="radio" id="relay-tab-2" name="relay-tab-group">
+					<label for="relay-tab-2">Terminal</label>
+					<div class="tabbed-tab-content">
+						<img src="../images/defender/relay-terminal.svg" >
+					</div>
+				</div>
 			</div>
 		</div>
 
