@@ -137,6 +137,7 @@ layout: default
 	.tabbed {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
+		align-items: center;
 	}
 
 	.tabbed > [type=radio] {
@@ -165,6 +166,10 @@ layout: default
 	.tabbed-tab-content {
 		grid-column: 1 / -1;
 		grid-row: 1 / 1;
+	}
+
+	.tabbed-tab-content img {
+		max-width: 100%
 	}
 
 	.tabbed > [type=radio]:not(:checked) + label + .tabbed-tab-content {
@@ -298,10 +303,7 @@ layout: default
 					<input type="radio" id="relay-tab-2" name="relay-tab-group">
 					<label for="relay-tab-2">Terminal</label>
 					<div class="tabbed-tab-content">
-						<video class="video-app" autoplay loop muted>
-							<source src="../images/defender/autotasks.webm" type="video/webm" />
-							<source src="../images/defender/autotasks.mp4" type="video/mp4" />
-						</video>
+						<img src="../images/defender/relay-terminal.svg" >
 					</div>
 				</div>
 			</div>
