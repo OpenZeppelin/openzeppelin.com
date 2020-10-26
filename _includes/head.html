@@ -1,9 +1,11 @@
 <head>
   {% if page.title %}
-  <title>{{ 'OpenZeppelin' | append: ': ' | append: page.title }}</title>
+  {% assign title = 'OpenZeppelin' | append: ' | ' | append: page.title %}
   {% else %}
-  <title>OpenZeppelin</title>
+  {% assign title = 'OpenZeppelin' %}
   {% endif %}
+
+  <title>{{ title }}</title>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +14,12 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@openzeppelin" />
   <meta name="twitter:creator" content="@openzeppelin" />
-  <meta name="twitter:title" content="{{ 'OpenZeppelin' | append: ' | ' | append: page.title }}" />
+  <meta name="twitter:title" content="{{ title }}" />
   <meta name="twitter:description" content="{{ page.excerpt | default: The standard for secure blockchain applications.' }}" />
   <meta name="twitter:image" content="{{ "/images/card.jpg" | absolute_url }}" />
 
   <!-- OG -->
-  <meta property="og:title" content="{{ 'OpenZeppelin' | append: ' | ' | append: page.title }}" />
+  <meta property="og:title" content="{{ title }}" />
   <meta property="og:description" content="{{ page.excerpt | default: 'The standard for secure blockchain applications.' }}" />
   <meta property="og:url" content="{{ "/" | absolute_url}}" />
   <meta property="og:site_name" content="OpenZeppelin" />
