@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<style>
+.hero .wrapper { margin-bottom: 0px; }
+.page-audit-request .section--gray .container { padding: 5rem 3rem; }
+.page-audit-request .hero .description { max-width: 800px; }
+.page-audit-request .hero h1.heading { max-width: 80%; }
+
+@media (min-width: 980px) {
+  .hero .wrapper { margin-bottom: 0; }
+  .page-audit-request .section-request-form .description { white-space: nowrap; }
+  .page-audit-request .hero h1.heading {
+    font-size: 2.2rem;
+    max-width: 90%;
+  }
+}
+
+</style>
+
+<main class="page page-audit-request">
+
+<section class="section section--gray hero">
+  <div class="container">
+    <div class="wrapper">
+      <h1 class="heading fIu">Let's Talk</h1>
+      <p class="description fIu">
+        Complete the form below to talk to our team about OpenZeppelin Defender. 
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section request-form">
+  <div class="container">
+    <div class="wrapper wrapper--centered center">
+        <!--[if lte IE 8]>
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+        <![endif]-->
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+        <script>
+          hbspt.forms.create({
+	        portalId: "7795250",
+	        formId: "3a6f50bb-15e6-4a43-ba7e-d04b6902f89d"
+        });
+        </script>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<script src="/js/fixedMenu.js"></script>
