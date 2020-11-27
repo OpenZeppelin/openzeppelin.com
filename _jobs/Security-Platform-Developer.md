@@ -1,7 +1,7 @@
 ---
 layout: job
-title: 'Security Platform Developer'
-excerpt: 'As a Security platform developer, you will join a team building a new security services platform for operational security of smart contract systems.'
+title: 'Full stack Ethereum Developer'
+excerpt: 'As a Full stack Ethereum developer, you will join the team working on Defender, a new services platform for operational security of smart contract systems.'
 location: 'Remote'
 type: 'Full Time'
 team: 'Product'
@@ -16,11 +16,15 @@ slug: ''
 <div class="requirements">
   <h3 class="job-description-title">What you'll be doing</h3>
   <p>
-    As a Security platform developer , you will join a team building a new security services platform for operational security of smart contract systems, to be launched in October, currently in trial mode with seven top-tier projects from the Ethereum space.
+    As a full stack Ethereum developer, you will join the team working on <a href="https://openzeppelin.com/defender/">Defender</a>, a new services platform for operational security of smart contract systems. Defender was publicly launched in October, and it’s already being used by top teams in the space such as Compound, Aave, dYdX, PoolTogether, Opyn, Notional. 
   </p>
   <br>
+  </p>
+Behind the scenes, Defender is built as a serverless application running on AWS with plans for decentralized self-hosting in the future. The entire application is coded in Typescript, and we use Svelte for the frontend.
+ </p>
+  <br>
   <p>
-    In this role, you will play an essential part in the building of our new platform and services, by contributing from different angles, such as: developing components, communicating with our users to gather feedback, and working collaboratively with the rest of the team to make sure we provide a good user experience.
+    In this role, you will play an essential part in the building of our new platform and services, by developing new components, communicating with our users to gather feedback, and working collaboratively with the rest of the team to make sure we provide a good user experience. Defender is geared to simplify the secure operation of smart contract systems, so you will need a good understanding of Ethereum to achieve these goals.
   </p>
 </div>
 
