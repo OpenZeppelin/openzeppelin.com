@@ -1,10 +1,10 @@
 ---
 layout: job
-title: 'Security Services'
-excerpt: 'As a Security Researcher, you will analyze the security of smart contracts and decentralized applications while conducting open-ended research around cutting edge blockchain technologies.'
+title: 'Project Manager - Security Services'
+excerpt: 'OpenZeppelin is seeking an experienced, customer-facing Project Manager with a proven track record of delivering on time and under budget to join the Security Research team and take ownership of the entire security audit delivery process.  This person will work closely with other constituencies across the organization including the Sales, Marketing, Operations, and the Executive Leadership team.'
 location: 'Remote'
 type: 'Full Time'
-team: 'Research'
+team: 'Security Research'
 navigation_weight: 0
 tags:
 date: 2020-12-22 10:00:00 +0000
