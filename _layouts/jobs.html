@@ -146,7 +146,8 @@ layout: default
 			</div>
 
 			<div class="section-content">
-				<div class="opening-box-listing" id="all-positions">
+        <div id="grnhse_app"></div>
+			  <!--div class="opening-box-listing" id="all-positions">
 					<ul class="job-card-list">
 						{% for job in site.jobs %}
 						<li class="job-card">
@@ -162,7 +163,7 @@ layout: default
 						</li>
 						{% endfor %}
 					</ul>
-				</div>
+				</div-->
 			</div>
 			<div class="container">
 				<div class="section-header">
@@ -330,9 +331,8 @@ layout: default
 		<div class="section-footer container center">
 			<a class="btn" href="#openings">see openings</a>
 		</div>
-
+    
 	</section>
-
 </main>
 
 <style type="text/css">
@@ -1057,6 +1057,7 @@ layout: default
 	}
 </style>
 
+<script src="https://boards.greenhouse.io/embed/job_board/js?for=openzeppelin"></script>
 <script src="/js/fixedMenu.js"></script>
 <script src="/js/jobs.js"></script>
 <script>
