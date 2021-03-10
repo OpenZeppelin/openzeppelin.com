@@ -83,7 +83,7 @@ We refer to these two types of end users of the Services collectively as &quot;*
 
 **9. Billing, Payment and Renewal**
 
-9.1 If you select a paid tier of Defender, OpenZeppelin will bill you in advance for use of the Services on a monthly basis. All paid subscription terms begin on the 1st day of the month and continue to the last day of the month (each, a &quot;Subscription Term&quot;). Your subscription will automatically renew on a monthly basis until terminated pursuant to these Terms.
+9.1 If you select a paid tier of Defender, OpenZeppelin will bill you in advance for use of the Services on a monthly basis. All paid subscription terms begin on the 1st day of the month and continue to the last day of the month (each, a &quot;**Subscription Term**&quot;). Your subscription will automatically renew on a monthly basis until terminated pursuant to these Terms.
 
 9.2 If you select a paid tier of Defender in the middle of a calendar month, you may be given free access to such paid tier functionality prior to your first Subscription Term. Such early access is determined by OpenZeppelin at its sole discretion.
 
