@@ -143,7 +143,6 @@ We refer to these two types of end users of the Services collectively as &quot;*
 13.1 If you believe that your copyright or the copyright of a person on whose behalf you are authorized to act has been infringed, please provide a written notice to [legal@openzeppelin.com](mailto:legal@openzeppelin.com) containing the following information:
 - an electronic or physical signature of the person authorized to act on behalf of the owner of the copyright or other intellectual property interest;
 - a description of the copyrighted work or other intellectual property that you claim has been infringed;
-
 - a description of where the material that you claim is infringing is located on the Services;
 
 - your address, telephone number, and email address;
