@@ -35,7 +35,7 @@ We refer to these two types of end users of the Services collectively as &quot;*
 
 **4. Representations, Warranties, and Risks**
 
-4.1 The Services may be accessed from countries around the world and may contain references to Services and content that are not available in your country. OpenZeppelin makes no representations that the Services are appropriate or available for use in all locations. You acknowledge and agree that you may not use the Services if you are a person barred from using the Services under the laws the country in which you are resident or from which you use the Services. Those who access or use the Services or content agree to do so at their own volition and acknowledge they are responsible for compliance with local law.
+4.1 The Services may be accessed from countries around the world and may contain references to Services and content that are not available in your country. OpenZeppelin makes no representations that the Services are appropriate or available for use in all locations. You acknowledge and agree that you may not use the Services if you are a person barred from using the Services under the laws of the country in which you are resident or from which you use the Services. Those who access or use the Services or content agree to do so at their own volition and acknowledge they are responsible for compliance with local law.
 
 4.2 You acknowledge that the Services are subject to flaws and agree that you are solely responsible for evaluating any code provided or made available by OpenZeppelin. This warning and others later provided by OpenZeppelin in no way evidence or represent an on-going duty to alert you to all of the potential risks of utilizing the Services.
 
