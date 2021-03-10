@@ -79,7 +79,7 @@ We refer to these two types of end users of the Services collectively as &quot;*
 
 8.4 OpenZeppelin may terminate your access to any Services, including Defender, immediately if: (a) you violate these Terms; (b) you cease business operations or become subject to insolvency proceedings; or (c) it is required to do so by law.
 
-8.5 OpenZeppelin may suspend your access to any Services, including Defender, immediately if: (a) you have undisputed amounts more than 5 days past due; (b) there is reason to believe that your use of Services is fraudulent or that you or any of your users are using the Services in a way that creates a security vulnerability or may disrupt others&#39; use of the Services; (d) there is scheduled or emergency maintenance; or (e) OpenZeppelin determines, in its sole discretion, that providing the Services is prohibited by applicable law, or it has become impractical or unfeasible for any legal or regulatory reason to the provide the Services.
+8.5 OpenZeppelin may suspend your access to any Services, including Defender, immediately if: (a) you have undisputed amounts more than 5 days past due; (b) there is reason to believe that your use of Services is fraudulent or that you or any of your users are using the Services in a way that creates a security vulnerability or may disrupt others&#39; use of the Services; (c) there is scheduled or emergency maintenance; or (d) OpenZeppelin determines, in its sole discretion, that providing the Services is prohibited by applicable law, or it has become impractical or unfeasible for any legal or regulatory reason to the provide the Services.
 
 **9. Billing, Payment and Renewal**
 
