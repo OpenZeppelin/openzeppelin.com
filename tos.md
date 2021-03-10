@@ -149,7 +149,6 @@ We refer to these two types of end users of the Services collectively as &quot;*
 - a description of where the material that you claim is infringing is located on the Services;
 
 - your address, telephone number, and email address;
-
 - a statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law;
 - a statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright or intellectual property owner or authorized to act on the copyright or intellectual property owner&#39;s behalf.
 
