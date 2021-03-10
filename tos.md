@@ -3,7 +3,6 @@ layout: tos
 title: 'Terms of use'
 subtitle: 'Last Updated: March 10, 2021'
 ---
-**TERMS OF SERVICE**
 
 Last Updated: March 10, 2021
 
