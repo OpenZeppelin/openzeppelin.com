@@ -97,7 +97,7 @@ We refer to these two types of end users of the Services collectively as &quot;*
 
 9.7 You are responsible for any taxes, duties, and customs fees associated with the sale of the Services (other than OpenZeppelin&#39;s income tax) (collectively &quot;**Taxes**&quot;), and you will pay OpenZeppelin for the Services without any reduction for Taxes. If OpenZeppelin is obligated to collect or pay Taxes, the Taxes will be invoiced to you, unless you provide OpenZeppelin with a valid tax exemption certificate.
 
-9.7 Except when required by law, all fees are non-cancellable and once paid are non-refundable, even in the case of unused paid Subscription Terms.
+9.8 Except when required by law, all fees are non-cancellable and once paid are non-refundable, even in the case of unused paid Subscription Terms.
 
 **10. Indemnification**
 
