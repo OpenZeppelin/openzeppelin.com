@@ -13,7 +13,7 @@ As used herein, &quot;**OpenZeppelin**&quot;, &quot;**we**&quot;, &quot;**our**&
 1.1 OpenZeppelin has two different types of end users:
 
 - We call users who use the free versions of the Services &quot;**Free Users**&quot;. While Free Users can access and use certain Services, they may have access to a more limited set of features and functionality than Paid Users.
-- We call users who use Defender as part of a paid subscription plan &quot;Paid Users.&quot; The features and functionalities available to Paid Users are determined by the subscription tier.
+- We call users who use Defender as part of a paid subscription plan &quot;**Paid Users**&quot;. The features and functionalities available to Paid Users are determined by the subscription tier.
 
 We refer to these two types of end users of the Services collectively as &quot;Users&quot; or &quot;you&quot; for purposes of these Terms. Regardless of what type of User you are, these Terms create a legally binding agreement between you and OpenZeppelin and explain the rules governing use of the Services. Users of Services requiring accounts are responsible for all activities that occur from respective User accounts and for compliance with these Terms.
 
