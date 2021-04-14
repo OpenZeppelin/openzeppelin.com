@@ -78,6 +78,10 @@ layout: default
 		padding: 6rem 1rem;
 	}
 
+	.page-defender .features:last-of-type {
+		clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+	}
+
 	.page-defender .features.inverted { 
     background: white;
   }
@@ -197,15 +201,14 @@ layout: default
 	}
 	
 	.testimonials {
-    padding: 7rem 0;
-    background-color: #F9FAFB;
-    margin-top: 3rem;
+		margin-top: 3rem;
 	}
 
 	@media (max-width: 768px) {
 		.page-defender .flex, .page-defender .features.inverted .flex { flex-direction: column; }
 		.page-defender .flex div { width: 100%; }
 		.page-defender .features { clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%); }
+		.page-defender .features:last-of-type { clip-path: polygon(0 2%, 100% 0, 100% 100%, 0 100%); }
 		
 		.page-defender .hero { min-height: 76vh; }
 		.hero .container { 
@@ -381,21 +384,23 @@ layout: default
 				</video>
 			</div>
 		</div>
-
-	</section>
 	
-	<section class="testimonials">
-		<div class="container">
-			<h6>Developers love OpenZeppelin Defender</h6>
-			{% include defender-quote.html %}
+		<div class="features inverted">
+			<div class="testimonials">
+				<div class="container">
+					<h6>Developers love OpenZeppelin Defender</h6>
+					{% include defender-quote.html %}
+				</div>
+			</div>
 		</div>
-	</section>
 
-	<section class="pricing">
-		<div class="container">
-			<h2 class="heading">Start using OpenZeppelin Defender</h2>
-		</div>
-		{% include pricing-grid.html %}
+		<div class="features">
+			<div class="pricing">
+				<div class="container">
+					<h2 class="heading">Start using OpenZeppelin Defender</h2>
+				</div>
+				{% include pricing-grid.html %}
+			</div>
 	</section>
 </main>
 
