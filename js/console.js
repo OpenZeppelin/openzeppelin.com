@@ -80,7 +80,7 @@ function typeVim() {
         [
           '<span style="color: #228B22;">// contracts/ExampleToken.sol</span>',
           '<span style="color: #228B22;">// SPDX-License-Identifier: MIT</span>',
-          '<span style="color: #D26696;">pragma</span> solidity <span style="color: #D26696;">^^</span><span style="color: #AF7DFF;">0.7.0</span>;',
+          '<span style="color: #D26696;">pragma</span> solidity <span style="color: #D26696;">^^</span><span style="color: #AF7DFF;">0.8.0</span>;',
           '<div style="height:8px"></div><span style="color: #D26696;">import</span> <span style="color:#F6D8A0;">"@openzeppelin/contracts/token/ERC20/<br><span class="mobile-br">&nbsp;</span>ERC20.sol"</span>;',
           '<div style="height:8px"></div><span style="color: #D26696;">contract</span> <span style="color:#788DD1">ExampleToken</span> is <span style="color:#788DD1">ERC20</span> {',
           '<div style="height:8px"></div><span class="terminal-padding"><span style="color: #788DD1;">constructor</span> ()',
@@ -88,7 +88,7 @@ function typeVim() {
           '<span class="terminal-padding">{</span>',
           '<span class="terminal-padding2">_mint(</span>',
           '<span class="terminal-padding3">msg.sender,</span>',
-          '<span class="terminal-padding3">10000 * (10**uint256(decimals()))</span>',
+          '<span class="terminal-padding3">10000 * 10 ** decimals()</span>',
           '<span class="terminal-padding2">);</span>',
           '<span class="terminal-padding">}^500',
           '}',
