@@ -6,3 +6,8 @@ publish = "_site"
 from = "/start"
 to = "/starter-kits"
 status = 301
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
