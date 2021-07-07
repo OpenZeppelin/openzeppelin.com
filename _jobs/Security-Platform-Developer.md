@@ -16,7 +16,7 @@ slug: ''
 <div class="requirements">
   <h3 class="job-description-title">What you'll be doing</h3>
   <p>
-    As a full stack Ethereum developer, you will join the team working on <a href="https://openzeppelin.com/defender/">Defender</a>, a new services platform for operational security of smart contract systems. Defender was publicly launched in October, and it’s already being used by top teams in the space such as Compound, Aave, dYdX, PoolTogether, Opyn, Notional. 
+    As a full stack Ethereum developer, you will join the team working on <a href="https://openzeppelin.com/defender/">Openzeppelin Defender</a>, a new services platform for operational security of smart contract systems. Defender was publicly launched in October, and it’s already being used by top teams in the space such as Compound, Aave, dYdX, PoolTogether, Opyn, Notional. 
   </p>
   <br>
   <p>
